@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- 焦点时的图片 -->
+<!--     <item android:drawable="@drawable/radio_order_focus" android:state_checked="false" android:state_focused="true"/> -->
+    <!-- 默认时的图片 -->
+    <item android:drawable="@drawable/txt_style" android:state_pressed="false"/>
+    <!-- 选择时的图片 -->
+    <item android:drawable="@drawable/txt_style_s" android:state_pressed="true"/>
+
+</selector>

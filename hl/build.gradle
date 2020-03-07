@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+
+    defaultConfig {
+        applicationId "com.health.hl"
+        minSdkVersion 14
+        targetSdkVersion 28
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation project(':baseComponents')
+
+    implementation 'com.google.code.gson:gson:2.8.6'
+    //implementation project(path: ':DatePicker')
+    implementation 'cn.aigestudio.datepicker:DatePicker:2.2.0'
+
+    implementation project(path: ':MPChartLib')
+    //implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+
+    api 'com.alibaba:fastjson:1.1.71.android'
+}

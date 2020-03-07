@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="white">#FFFFFF</color>
+    <color name="sayes_main_blue">#1BB7FF</color> <!-- 蓝色主色调 -->
+    <color name="sayes_main_blue_s">#68DAF9</color> <!-- 蓝色选中 -->
+    <color name="sayes_line_grey">#BCBCBC</color> <!-- 灰色线条 -->
+    <color name="sayes_title_grey">#1BB7FF</color> <!-- 灰色背景 -->
+    <color name="sayes_dian_orange">#FF8F00</color> <!-- 圆点橙色 -->
+    <color name="view_grey_line">#CACACA</color> <!-- 灰色分割线 -->
+    <color name="sayes_txt_grey">#B5B5B5</color> <!-- 灰色文字 -->
+
+    <color name="griditems_bg">#ffe8ecef</color>
+    <color name="commo_text_color">#ff333333</color>
+    <color name="line">#ffd3dde6</color>
+	<color name="transparent_background">#96ffffff</color>
+	
+	<!-- 蓝牙秤色值 -->
+	<color name="radio_s">#33D2FA</color><!--底部按键选中 -->
+	<color name="txt_connect_state">#54A0F4</color><!-- 连接状态文字 -->
+    <color name="txt_title_hui">#989898</color><!-- 目标体重、剩余时间文字 -->
+    <color name="txt_content_lv">#32CFBA</color><!-- 目标体重、剩余时间内容 -->
+    <color name="txt_radiobutton_n">#666666</color><!-- 底部单选按钮文字默认色 -->
+    <color name="txt_radiobutton_s">#2793EB</color><!-- 底部单选按钮文字选中色 -->
+    <color name="bg_radiobutton_s">#33D2FA</color><!-- 底部单选按钮背景选中色 -->
+    <color name="bg_radiobutton_n">#9FEAFD</color><!-- 底部单选按钮背景默认色 -->
+    <color name="txt_bmi">#FF4707</color><!-- BMI文字颜色 -->
+    <color name="txt_tizhong">#B17AF9</color><!-- 体重文字颜色 -->
+    <color name="btn_yellow_n">#FFFBDD</color><!--黄色按键默认色 -->
+    <color name="btn_yellow_s">#FBF1A9</color><!--黄色按键选中色 -->
+    <color name="txt_yellow">#FDD17A</color><!--黄色文字色 -->
+    <color name="btn_blue_n">#D1F1FD</color><!--蓝色按键默认色 -->
+    <color name="btn_blue_s">#ABE5FB</color><!--蓝色按键选中色 -->
+    <color name="txt_blue">#2694E9</color><!--蓝色文字色 -->
+    <color name="btn_zise_n">#FFEDFD</color><!--紫色按键默认色 -->
+    <color name="btn_zise_s">#FDD9F7</color><!--紫色按键选中色 -->
+    <color name="txt_zise">#E5B0FF</color><!--紫色文字色 -->
+    <color name="bg_green">#DEFFE2</color><!--绿色背景色 -->
+    <color name="txt_green">#72D57B</color><!--绿色文字色 -->
+    <color name="bg_orange">#FFE7DD</color><!--橙色背景色 -->
+    <color name="txt_orange">#FC8C8A</color><!--橙色文字色 -->
+    
+    <color name="radio_zise_n">#EDC8E7</color><!--级别紫色默认 -->
+    <color name="radio_zise_s">#DA90CF</color><!--级别紫色选中 -->
+    <color name="bg_tianlan">#CDFDFD</color><!--天蓝色背景色 -->
+    <color name="txt_tianlan">#6AB0AE</color><!--天蓝色文字色 -->
+    <color name="btn_tianlan_n">#3FB0FF</color><!--天蓝色按键默认色 -->
+    <color name="btn_tianlan_s">#68C5FF</color><!--天蓝色按键选中色 -->
+    <color name="txt_shuifen">#00FDFD</color><!--水分文字颜色 -->
+    <color name="txt_shuifen_p">#FFF500</color><!--水分评定文字颜色 -->
+    <color name="bg_estimate">#dde9fd</color><!--预计用时背景色 -->
+    <color name="txt_estimate">#8ba5d0</color><!--预计用时文字背景色 -->
+    
+    <color name="txt_tizhi">#42B8D6</color><!--体脂率评定文字颜色 -->
+    <color name="txt_tizhi_content">#FE7676</color><!--体脂率数据文字颜色 -->
+    <color name="txt_tizhi_zhengchang">#39AA14</color><!--体脂率标准文字颜色  正常-->
+    <color name="txt_tizhi_piandi">#FFAD00</color><!--体脂率标准文字颜色 不正常 -->
+    <color name="tv_named">#19BDCF</color><!--设备命名文字 -->
+    <color name="tv_update">#FB8F55</color><!--更改设备文字 -->
+    <color name="tv_explain">#FE7FB8</color><!--操作说明文字 -->
+    <color name="tv_about">#74BE45</color><!--产品信息文字 -->
+
+	<color name="txt_bg_green">#A5D34D</color><!--文字背景绿色 -->
+	<color name="txt_bg_yellow">#FFC600</color><!--文字背景黄色 -->
+	<color name="txt_bg_blue">#2794E9</color><!--文字背景蓝色 -->
+	<color name="view_line_gray">#D8D8D8</color><!--灰色横线 -->
+	<color name="text_gray">#666666</color><!--灰色文字-->
+    <!-- 蓝牙随身松色值 -->
+    <color name="bg_portable">#F4F4F4</color><!-- 隨身松背景顏色 -->
+    <color name="bg_title">#1BB7FF</color><!-- 标题栏背景 -->
+    <color name="btn_text_gray">#BFBFBF</color><!-- 按键默认文字灰色 -->
+    <color name="btn_text_blue">#1BA0DD</color><!-- 按键默认文字蓝色 -->
+    <color name="tv_others">#589FEE</color><!--展示内容文字颜色 --> 
+    <color name="power_blue">#1AB7FF</color><!-- 电量蓝色 -->
+    <color name="btn_text_gray_2">#A1A1A1</color><!-- 按键默认文字灰色 -->
+    <color name="btn_named_n">#B9F8FF</color><!--设备命名背景色 -->
+    <color name="btn_named_s">#7FF0FC</color><!--设备命名背景色  按下-->
+    <!-- 然并卵色值 -->
+    <color name="text_oringe">#D45E07</color><!--设备命名背景色  按下-->
+    <color name="text_oringe_1">#F65403</color><!--设备命名背景色  按下-->
+    <color name="text_gray_ran">#6F6F6F</color><!--设备命名背景色  按下-->
+    <color name="text_gray_ran_1">#676767</color><!--设备命名背景色  按下-->
+    <color name="bg_datepicker">#E1E1E1</color><!--日历背景色 -->
+    <!-- 手环 -->
+    <color name="txt_bracelet">#C575B7</color><!--手环天蓝色字体 -->
+    <color name="txt_bracelet_top">#0171A4</color><!--手环顶部日期字体 -->
+    <!-- 跳绳 -->
+    <color name="bg_skipping_main">#D3D3D3</color><!--主页灰色背景 -->
+    <color name="title_skipping_sports">#2BA5DF</color><!--标题蓝色背景 -->
+    <color name="btn_skipping_tag_n">#1BB7FF</color><!--目标按键 -->
+    <color name="btn_skipping_tag_s">#8AD6F9</color><!--目标按键 -->
+    <color name="checkbox_text_normal">#4FC5FF</color><!--按键默认字体色 -->
+    <color name="checkbox_text_check">#F7FCFF</color><!--按键选中字体色 -->
+    <!-- 血压计 -->
+    <color name="tv_bp_date">#0171A4</color><!-- 日期字体颜色-->
+    <color name="bt_bp_scanskip">#3FB0FF</color><!-- 血压计扫描、跳过按钮背景颜色-->
+    <color name="tv_bp_connect">#999999</color><!-- 连接页面字体颜色-->
+    <color name="txt_radiobutton_bp_n">#888888</color><!-- 血压单选按钮没有被选中时的颜色 -->
+    <color name="txt_radiobutton_bp_s">#1BB7FF</color><!-- 血压单选按钮被选中时的颜色 -->
+    <color name="txt_bps">#19C9DE</color><!-- 收缩压字体颜色 -->
+    <color name="txt_bpd">#FB9B7A</color><!-- 舒张压字体颜色 -->
+    <color name="txt_maibo">#CD9BF8</color><!-- 脉搏字体颜色 -->
+    <color name="txt_maibo_normal">#589FEE</color><!-- 脉搏正常的字体颜色 -->
+    <color name="txt_bp_normal">#4CC755</color><!-- 血压正常范围字体颜色 -->
+    <color name="txt_bp_unnormal">#FF8B2E</color><!-- 血压不正常范围字体颜色 -->
+    <color name="txt_bp_arrange">#666666</color><!-- "血压参考范围"字体颜色 -->
+    <color name="tv_bp_setting">#1BA0DD</color><!-- 设置页面字体颜色 -->
+    
+    <!-- 改版后增加的颜色 -->
+    <color name="tv_login_title">#3C8BDB</color><!-- 登录页面标题颜色-->
+    <color name="tv_login_login">#1BB7FF</color><!-- 登录页面"自动登录"颜色-->
+    <color name="bg_title_bt">#1BB7FF</color><!-- 标题栏、确认按钮等背景颜色-->
+    <color name="tv_login_kuaijie">#39619D</color><!-- 登录页面"快捷登录"颜色-->
+    <color name="tv_main_welcome">#666666</color><!-- 主页面"欢迎"颜色-->
+    <!-- 安菲色值 -->
+    <color name="tv_anfei_date">#0171A4</color><!-- 首页日期字体颜色-->
+    <color name="tv_anfei_button">#61CDFF</color><!-- 首页button边框颜色-->
+    <color name="tv_anfei_txt_gray">#999999</color><!-- 灰色字体-->
+    <color name="tv_anfei_bg_graph">#36393C</color><!--测试页面曲线图背景-->
+    <color name="tv_anfei_test_txt">#1BA0DD</color><!-- 测试页面蓝色字体-->
+    <color name="tv_anfei_test_time">#0171A4</color><!-- 测试页面蓝色字体-->
+    <color name="tv_anfei_history_title">#1BB7FF</color><!--历史记录页面蓝色字体-->
+    <color name="tv_anfei_baogao_txt">#1BB7FF</color><!-- 报告页面蓝色字体-->
+    <color name="tv_anfei_baogao_hilow">#FF8B02</color><!-- 报告中参数偏高偏低的字体颜色-->
+    
+    <!-- mainpage -->
+    <color name="bg_recover_mainpage">#FAFAFA</color><!-- 首页背景颜色-->
+    <color name="btn_recover_purple">#C476E8</color>
+    <color name="bg_recover_mainpage_wordage">#736DFF</color><!-- 首页年龄文字颜色-->
+    <color name="bg_recover_mainpage_wordtitle">#FF767676</color><!-- 首页标题文字颜色-->
+    <color name="bg_recover_mainpage_wordmaxpower">#FF535353</color><!-- 首页标题文字颜色-->
+    <color name="bg_recover_mainpage_wordname">#807F7F7F</color><!-- 首页名字文字颜色-->
+    <color name="bg_recover_mainpage_wordunit">#80000000</color><!-- 首页单位文字颜色-->
+    <color name="bg_recover_mainpage_shadow">#DBDEED</color><!-- 首页阴影颜色-->
+    <color name="btn_recover_dailog_blue">#8674ED</color><!-- 对话框按钮文字颜色-->
+    
+    <!-- adduserpage -->
+    <color name="bg_recover_adduserpage_worddescribe">#b39C9C9C</color><!-- 用户页介绍文字颜色-->
+    <color name="bg_recover_adduserpage_wordtitle">#FF535353</color><!-- 用户页标题文字颜色-->
+    <color name="bg_recover_adduserpage_wordstatu">#b34A4A4A</color><!-- 用户页标题文字颜色-->
+    <color name="bg_recover_adduserpage_texthint">#B38F8D8D</color><!-- 用户页提示文字颜色-->
+    <!-- trainpage -->
+    <color name="bg_recover_trainpage_wordtimetitle">#B3000000</color><!-- 测试页时间标题文字颜色-->
+    <color name="bg_recover_trainpage_wordtime">#FF7C9AFF</color><!-- 测试页时间标题文字颜色-->
+    <color name="bg_recover_trainpage_wordtestresaul">#FF736DFF</color><!-- 测试页测试结果文字颜色-->
+    <color name="bg_recover_trainpage_linemodel">#FF7C9AFF</color><!-- 测试页模板曲线颜色-->
+    <color name="bg_recover_trainpage_linereal">#FFF186FD</color><!-- 测试页实际曲线颜色-->
+    
+    <!-- analysispage -->
+    <color name="bg_recover_analysispage_wordtitle">#80000000</color><!-- 分析页标题文字颜色-->
+    <color name="bg_recover_analysispage_wordplantitle">#b3000000</color><!-- 分析页方案标题文字颜色-->
+    <color name="bg_recover_analysispage_wordplannum">#FF736DFF</color><!-- 分析页方案实际值文字颜色-->
+	<color name="bg_recover_analysispage_wordtitleI">#FF7C9AFF</color><!-- 分析页I类肌标题文字颜色-->
+    <color name="bg_recover_analysispage_wordtitleII">#FFE787FD</color><!-- 分析页II类肌标题文字颜色-->
+    <color name="bg_recover_analysispage_wordtitlenowchart">#FFF186FD</color><!-- 分析页当前图表文字颜色-->
+    
+    <!-- adjustpage -->
+    <color name="bg_recover_adjustpage_wordtitle">#e0000000</color><!-- 分析页标题文字颜色-->
+    <color name="bg_recover_adjustpage_word">#38000000</color><!-- 分析页方案标题文字颜色-->
+
+    
+</resources>

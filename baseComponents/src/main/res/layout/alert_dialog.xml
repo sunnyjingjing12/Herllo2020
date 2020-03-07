@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/pop_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn_style_alert_dialog_background"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_take_photo"
+            style="@style/style_alert_dialog_button"
+            android:text="@string/label_take_photo"/>
+
+        <Button
+            android:id="@+id/btn_pick_photo"
+            style="@style/style_alert_dialog_button"
+            android:text="@string/label_pick_photo"/>
+
+        <Button
+            android:id="@+id/btn_cancel"
+            style="@style/style_alert_dialog_button"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/btn_style_alert_dialog_cancel"
+            android:text="@string/label_cancel"
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

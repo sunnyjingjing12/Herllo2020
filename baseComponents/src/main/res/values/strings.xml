@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="label_take_photo">拍照</string>
+    <string name="label_pick_photo">从相册选择</string>
+    <string name="label_ok">确定</string>
+    <string name="label_cancel">取消</string>
+
+</resources>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:background="@drawable/shape_bg_login">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/dailog_title"
+        android:orientation="horizontal" >
+
+        <!-- 返回键 -->
+
+        <TextView
+            android:id="@+id/tv_deivce_dailog_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="课程1 慢肌训练"
+            android:textColor="@android:color/white"
+            android:textSize="22sp" />
+
+    	</RelativeLayout>
+        
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+		</RelativeLayout>
+
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentLeft="true"
+				android:layout_marginLeft="0dp"
+				android:gravity="center"
+				android:padding="10dp"
+				android:text="请设置训练时间"
+				android:textColor="@color/bg_recover_mainpage_wordtitle"
+				android:textSize="18sp" />
+
+			<TextView
+		    android:id="@+id/tv_device_dailog_traintime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"
+            android:text="当前数值：0"
+            android:textColor="@color/bg_recover_mainpage_wordtitle"
+            android:textSize="18sp" />	
+		</RelativeLayout>
+
+		<SeekBar
+			android:id="@+id/sk_device_dailog_traintime"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"
+			android:max="25"
+			android:maxHeight="10dp"
+			android:minHeight="10dp"
+			android:progressDrawable="@drawable/progress_horizontal"
+			android:thumb="@drawable/bg_recover_adjustpage_seekbarbtn" />
+
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"    
+            android:gravity="left" 
+            android:layout_marginLeft="10dp"
+		    android:layout_marginRight="10dp"        
+    		android:layout_marginTop="8dp" >
+
+			<TextView
+				android:id="@+id/tv_recover_trainlevel_state"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical"
+				android:layout_marginLeft="10dp"
+				android:text="训练方式：行走时收缩自如，康复器不掉落"
+				android:textColor="@color/bg_recover_mainpage_wordtitle"
+				android:textSize="18sp" />
+
+       	</LinearLayout>
+		
+		<View 
+		    android:layout_width="match_parent"
+		    android:layout_height="2dp"
+		    android:layout_marginTop="10dp"
+		    android:background="@drawable/bg_recover_adjustpage_line1"/>
+		 <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_device_dialog_cancel"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/white"
+                android:text="返回"
+                android:textColor="@color/btn_recover_purple"
+                android:textSize="20sp" />
+
+            <View 
+		    android:layout_width="2dp"
+		    android:layout_height="20dp"
+		    android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+		    android:background="@drawable/bg_recover_adjustpage_line2"/>
+            
+            <Button
+                android:id="@+id/btn_device_dialog_starttrain"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:text="训练"
+                android:textColor="@color/btn_recover_purple"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

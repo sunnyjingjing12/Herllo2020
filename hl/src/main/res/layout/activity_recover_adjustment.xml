@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/btn_recover_purple"
+        android:orientation="horizontal" >
+
+        <!-- 返回键 -->
+
+        <ImageView
+            android:id="@+id/iv_recover_adjustment_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:clickable="true"
+            android:padding="10dp"
+            android:src="@drawable/img_back" />
+
+        <TextView
+            android:id="@+id/tv_adjustment_bettary"
+            android:layout_width="45dp"
+            android:layout_height="24dp"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@+id/iv_recover_adjust_bluetooth"
+            android:background="@drawable/icon_battery"
+            android:padding="2dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="5dp"
+            android:text="100%"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+        
+        <ImageView
+            android:id="@+id/iv_recover_adjust_bluetooth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/icon_bluetooth_disconnect"
+            android:clickable="true" />
+
+        <TextView
+            android:id="@+id/tv_adjustment_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/iv_recover_adjustment_back"
+            android:text="调节高低"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/ll_adjustment_describe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="26dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_adjustment_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="1、调整坐姿"
+                android:textSize="16sp" 
+                android:textColor="@color/bg_recover_adjustpage_word"/>
+
+            <TextView
+                android:id="@+id/tv_adjustment_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:gravity="left"
+                android:text="将中央传感器调整于会阴部（尿道和肛门之间）。"
+                android:textSize="13sp" 
+                android:textColor="@color/bg_recover_adjustpage_wordtitle"/>
+
+            <TextView
+                android:id="@+id/tv_adjustment_text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:text="2、调节高低"
+                android:textSize="16sp" 
+                android:textColor="@color/bg_recover_adjustpage_word"/>
+            
+            <TextView
+                android:id="@+id/tv_adjustment_text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:gravity="left"
+                android:text="调节底部按钮，使正确坐姿时压力条达到绿色区域并让数值保持相对稳定。"
+                android:textSize="13sp" 
+                android:textColor="@color/bg_recover_adjustpage_wordtitle"/>      
+                
+            <TextView
+                android:id="@+id/tv_adjustment_text5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:text="3、注意事项"
+                android:textSize="16sp" 
+                android:textColor="@color/bg_recover_adjustpage_word"/>
+            
+            <TextView
+                android:id="@+id/tv_adjustment_text6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:gravity="left"
+                android:text="放松盆底肌，在测试或者训练过程中请维持坐姿稳定，勿前后移动或者倾斜。"
+                android:textSize="13sp" 
+                android:textColor="@color/btn_text_blue"/>    
+        </LinearLayout>
+        
+        <!-- <LinearLayout
+            android:id="@+id/ll_adjustment_choose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_green"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:padding="5dp" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_adjustment_project"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="项目:"
+                    android:textColor="@color/text_oringe"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tv_adjustment_projecttest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="测试"
+                    android:textSize="20sp" />
+
+                <ToggleButton
+                    android:id="@+id/tb_adjustment_projectchoose"
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/selector_switch"
+                    android:checked="true"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <TextView
+                    android:id="@+id/tv_adjustment_projecttrain"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="训练"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_adjustment_projecttest1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="训练等级"
+                    android:textColor="@color/text_oringe"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/btn_recover_level1"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="45dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/txt_bg_green"
+                        android:text="L1"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/btn_recover_level2"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="45dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/selector_btn_tianlan"
+                        android:text="L2"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/btn_recover_level3"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="45dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/selector_btn_tianlan"
+                        android:text="L3"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/btn_recover_level4"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="45dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/selector_btn_tianlan"
+                        android:text="L4"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp" />
+                    
+                    <Button
+                        android:id="@+id/btn_recover_level5"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="45dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/selector_btn_tianlan"
+                        android:text="L5"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/btn_recover_level6"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="45dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/selector_btn_tianlan"
+                        android:text="L6"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/btn_recover_level7"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="45dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/selector_btn_tianlan"
+                        android:text="L7"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/btn_recover_level8"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="45dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/selector_btn_tianlan"
+                        android:text="L8"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/btn_recover_level9"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="45dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/selector_btn_tianlan"
+                        android:text="L9"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp" />
+                    
+                    <Button
+                        android:id="@+id/btn_recover_level10"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="45dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/selector_btn_tianlan"
+                        android:text="L10"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_adjustment_projecttraintime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="训练时间"
+                    android:textColor="@color/text_oringe"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/btn_recover_traintime5"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="60dp"
+                        android:layout_height="30dp"
+                        android:background="@color/txt_bg_green"
+                        android:text="5分钟"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/btn_recover_traintime10"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="60dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/selector_btn_tianlan"
+                        android:text="10分钟"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/btn_recover_traintime15"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="60dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/selector_btn_tianlan"
+                        android:text="15分钟"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp" />
+                </LinearLayout>
+                
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/btn_recover_traintime20"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="60dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/selector_btn_tianlan"
+                        android:text="20分钟"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/btn_recover_traintime25"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="60dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/selector_btn_tianlan"
+                        android:text="25分钟"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/btn_recover_traintime30"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="60dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/selector_btn_tianlan"
+                        android:text="30分钟"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp" />
+                </LinearLayout>
+                
+            </LinearLayout>
+        </LinearLayout> -->
+
+
+
+        
+    </LinearLayout>
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="17dp"
+        android:orientation="horizontal" >
+    <ImageView
+            android:id="@+id/iv_recover_analysis_machine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="5dp"
+            android:clickable="true"
+            android:src="@drawable/mashine" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="13dp"
+        android:orientation="vertical" >
+
+        <TextView
+                android:id="@+id/tv_adjustment_powernum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:layout_marginLeft="16dp"
+                android:text="压力值："
+                android:textSize="16sp" 
+                android:textColor="@color/bg_recover_adjustpage_word"/>
+        
+       	<com.health.hl.view.colorprogressbar
+        android:id="@+id/pb_recover_adjust_power"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"/>
+        
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:padding="5dp" >
+
+            <Button
+                android:id="@+id/btn_recover_nextstep"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="107dp"
+                android:layout_height="47dp"
+                android:background="@drawable/btn_little"
+                android:text="测试"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+            
+            <Button
+                android:id="@+id/btn_recover_startgame"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="107dp"
+                android:layout_height="47dp"
+                android:layout_marginLeft="19dp"
+                android:background="@drawable/btn_little"
+                android:text="训练"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 血压计单选按钮字体颜色选择器 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- 默认时的图片 -->
+    <item android:color="@color/txt_radiobutton_bp_n" android:state_checked="false"/>
+    <!-- 选择时的图片 -->
+    <item android:color="@color/txt_radiobutton_bp_s" android:state_checked="true"/>
+
+</selector>

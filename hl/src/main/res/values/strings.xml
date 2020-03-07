@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">荷露</string>
+    <string name="company_name">广州市连思科技有限公司</string>
+    <string name="login_app_name">荷露</string>
+    <string name="tv_main_expect">敬请期待</string>
+    <string name="login_login">自动登录</string>
+    <string name="login_getpassword">找回密码</string>
+    <string name="login_quicklogin">快捷登录</string>
+    <string name="login_hint1">请输入账号</string>
+    <string name="login_hint2">请输入密码</string>
+    <string name="tv_account">账户</string>
+    <string name="login_username">用户名</string>
+    <string name="bt_nextstep">下一步</string>
+    <string name="tv_question">问题:</string>
+    <string name="tv_teachername">您小学老师叫什么名字？</string>
+    <string name="tv_answer">答案</string>
+    <string name="et_inputanswer">请输入答案</string>
+    <string name="bt_laststep">上一步</string>
+    <string name="tv_newpassword">新&#160;&#160;密&#160;&#160;码</string>
+    <string name="tv_newpassword1">新密码</string>
+    <string name="tv_ensurepassword">确认密码</string>
+    <string name="bt_submit">提交</string>
+    <string name="tv_loginaccount">登陆账号</string>
+    <string name="tv_adduser">添加用户</string>
+    <string name="tv_cancellation">注销</string>
+    <string name="tv_register">用户注册</string>
+    <string name="et_password">密码</string>
+    <string name="tv_borncity">您出生的城市？</string>
+    <string name="tv_school">您的小学名称？</string>
+    <string name="tv_fathername">您父亲的中间名？</string>
+    <string name="tv_registersuc">注册成功</string>
+    <string name="et_safequestion">密保问题</string>
+    <string name="et_safeanswer">密保答案</string>
+    <string name="tv_phone">手机</string>
+    <string name="tv_email">邮箱</string>
+    <string name="tv_phonenumber">手机号</string>
+    <string name="tv_verify">验证码</string>
+    <string name="tv_getverify">获取验证码</string>
+    <string name="tv_complete">已完成</string>
+    <string name="tv_phoneve">手机验证</string>
+    <string name="tv_historydata">历史数据</string>
+    <string name="bt_add">添加</string>
+    <string name="login_register">注&#160;&#160;&#160;&#160;册</string>
+    <string name="login_login_bt">登&#160;&#160;&#160;&#160;录</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="message_login_pwd_errer">账号或密码错误</string>
+    <string name="message_login_no_phone">账号未注册</string>
+    <string name="message_has_name_errer">账号已存在</string>
+    <string name="message_has_email_errer">邮箱已存在</string>
+    <string name="message_has_phone_errer">手机号已存在</string>
+    <string name="message_fail_name_verify_isempty">验证码不能为空</string>
+    <string name="message_fail_checkphone_failure">手机号码格式不正确</string>
+    <string name="message_fail_name_password_isempty">账号或密码不能为空</string>
+    <string name="soft_update_no">已经是最新版本</string>
+    <string name="soft_update_title">软件更新</string>
+    <string name="soft_update_info">检测到新版本，立即更新吗</string>
+    <string name="soft_update_updatebtn">更新</string>
+    <string name="soft_update_later">稍后更新</string>
+    <string name="soft_updating">正在更新</string>
+    <string name="soft_update_cancel">取消</string>
+    <string name="content_umed_sss">蓝牙版随身松，采用国际领先科技，通过手机蓝牙发送指令，控制主机进行深度按摸。主机采用国际先进的微控芯片技术，产生与人体细胞分子共振的电子生物脉冲波，刺激人体肌肉，让人产生敲击、揉捏、快慢捶、针灸、捶加揪、复合式等感觉，有效缓解疲劳、减轻肌肉酸痛等症状，让您随时随地，“无线”放松。</string>
+    <string name="content_umed_lyc">该软件配套蓝牙电子秤一起使用，从电子称接受到数据存储于不同的用户组下，使用图表、列表的方式浏览历史数据，存储数据和分享数据。</string>
+    <!-- 蓝牙秤数据 -->
+    <string name="text_share_wechat">分享朋友圈</string>
+    <string name="title_balance">体脂秤</string>
+    <string name="title_about">关于产品</string>
+    <string name="tv_tips">亲！请脱鞋上秤我们才能更了解您哦！</string>
+    <string name="tv_piansou">瘦成一道闪电啦，请注意不要挑食，保证营养均衡，尤其要加强对蛋白质和奶制品的摄入，保持充足而良好的睡眠和愉悦的心情，适当运动，使肌肉强壮、体魄健美。</string>
+    <string name="tv_jiankang">哇塞，您的身体太标准了，您是健康使者，请继续保持，再接再厉，更加健康，轻松保持好身材!</string>
+    <string name="tv_chaozhong">亲，您有婴儿肥，建议多吃水果，，选择有氧运动进行锻炼；调节好日常饮食，加强运动，提高代谢率，倾国倾城指日可待。</string>
+    <string name="tv_feipang">您要Hold住体重哦，“管住嘴迈开腿”，多动，少吃，特别是少吃含脂肪多的油腻食物，细嚼慢咽，生活要有规律，并注重生活质量，加强日常锻炼，这样做保准瘦到您尖叫。</string>
+    <string name="edit_named_balance">请输姓名</string>
+    <string name="btn_save">保存</string>
+    <string name="tv_parameter">参数指导</string>
+    <string name="tv_explain">操作说明</string>
+    <string name="tv_about">产品信息</string>
+    <string name="btn_parameter">参数指导</string>
+    <string name="text_standard">标准</string>
+    <string name="text_bmi_index">BMI指数</string>
+    <string name="text_fat_ratio">脂肪率</string>
+    <string name="text_bmi">BMI</string>
+    <string name="text_neizhifang_index">内脏脂肪指数</string>
+    <string name="text_shuifen_rate">水分率</string>
+    <string name="text_muscle">肌肉</string>
+    <string name="text_guge_rate">骨骼含量</string>
+    <string name="text_daixie_rate">基础代谢率</string>
+    <string name="tips_tourist">游客</string>
+    <string name="tips_save_success">保存成功</string>
+    <string name="tips_members_full">用户量已达上限</string>
+    <string name="tips_name_empty">姓名不能为空</string>
+    <string name="tips_height_range">身高范围50-255CM</string>
+    <string name="tips_age_range">年龄范围5-120岁</string>
+    <string name="tips_choose">请选择</string>
+    <string name="text_name">姓名</string>
+    <string name="text_sex">性别</string>
+    <string name="text_tall">身高</string>
+    <string name="text_age">年龄</string>
+    <string name="text_age_of">岁</string>
+    <string name="text_level">级别</string>
+    <string name="text_ordinary">普通人</string>
+    <string name="text_amateur">业余运动员</string>
+    <string name="text_weight">体重</string>
+    <string name="text_professional">专业运动员</string>
+    <string name="title_analysis">参数分析</string>
+    <string name="text_list_mode">列表查看</string>
+    <string name="text_diagram_mode">曲线图</string>
+    <string name="text_date">日期</string>
+    <string name="toast_connect_dis">连接断开</string>
+    <string name="tips_weigh_up">请重新上秤</string>
+    <string name="text_thinner">偏瘦</string>
+    <string name="text_was_low">偏低</string>
+    <string name="text_high_side">偏高</string>
+    <string name="text_too_fat">偏胖</string>
+    <string name="text_tips_dialog">小提示</string>
+    <string name="tv_explain_title_1_balance">操作说明</string>
+    <string name="tv_explain_content_A_balance">\n1.&#160;&#160;&#160;&#160;把蓝牙秤安装电池，确保秤的显示屏可以正确显示体重；</string>
+    <string name="tv_explain_content_B_balance">2.&#160;&#160;&#160;&#160;用手机扫描蓝牙秤二维码，下载并安装软件；
+        \n3.&#160;&#160;&#160;&#160;在手机“设置”界面开启蓝牙；
+        \n4.&#160;&#160;&#160;&#160;点击手机桌面蓝牙秤图标，打开应用；；
+        \n5.&#160;&#160;&#160;&#160;进入“个人中心”——“设置信息”，输入个人参数，输入完成后点击“保存”；</string>
+    <string name="tv_explain_content_C_balance">6.&#160;&#160;&#160;&#160;脱下鞋子和袜子，赤脚上秤，然后等待测试完成接收数据；</string>
+    <string name="tv_explain_content_D_balance">7.&#160;&#160;&#160;&#160;数据接收后即可离开秤面。</string>
+    <string name="tv_about_title_balance">蓝牙电子秤产品信息</string>
+    <string name="tv_about_title_tedian_balance">*介绍</string>
+    <string name="tv_about_title_tedian_1_balance">该软件配套蓝牙电子秤一起使用，从电子秤接受到数据存储于不同的用户组下，使用图表、列表的方式浏览历史数据，存储数据和分享数据。</string>
+    <string name="tv_about_title_yuanli_balance">*支持的设备</string>
+    <string name="tv_about_title_yuanli_1_balance">设备要求：蓝牙2.1及以上版本
+\n系统要求：安卓4.3以上系统，IOS7.0以上版本</string>
+    <string name="tv_about_title_dianchi_balance">*数据存储</string>
+    <string name="tv_about_title_dianchi_1_balance">测量数据：从秤端接收到的数据包括：体重、身体脂肪、内脏脂肪、骨骼含量、肌肉含量、人体水分、基础代谢率、体质指数（用户输入身高，当获取体重数据后，体质指数的值会经健康管理专家自动计算得出）。
+\n用户：第一次测量请先在个人中心更改信息，输入个人信息。</string>
+    <string name="tv_about_title_model_balance">*接收数据</string>
+    <string name="tv_about_title_model_1_balance">首次使用软件，请根据提示，开启蓝牙功能。或者去手机“设置”界面找到蓝牙选项，然后打开蓝牙以便接收数据
+\n以下是测量前的必须步骤：
+\n1. 点击蓝牙秤图标来打开软件；
+\n2. 打开蓝牙功能；
+\n3. 确保输入人体参数（性别、身高和年龄）正确；
+\n4. 设置完成后，请赤脚上秤，然后等待测试完成接收数据；
+\n5. 数据接收后即可离开秤面。</string>
+    <string name="tv_about_title_dangwei_balance">*浏览历史数据</string>
+    <string name="tv_about_title_dangwei_1_balance">1. 点击主界面中“历史数据”按钮，即可浏览历史记录数据；
+\n2. 滑动历史记录曲线可以查看所有测得的数据；
+\n3. 在屏幕上用两指伸缩可以对应的放大或缩小折线图，放大可以查看以年、月为单位的测试数据，缩小可以查看以周为单位的测试数据。
+\n4. 点击折线图上的节点，选择测量的日期，历史记录曲线下方可以查看一周内每天的体重和BMI，要查看每天的详细信息，请点击日期按钮，查看详细的测量数据。</string>
+
+    <!-- 蓝牙随身松数据 -->
+    <string name="radio_setting">设置</string>
+    <string name="radio_caozuo">操作</string>
+    <string name="radio_guide">使用指导</string>
+    <string name="title_1">随身松</string>
+    <string name="tv_qiao">敲击</string>
+    <string name="tv_rou">揉捏</string>
+    <string name="tv_chui">快慢捶</string>
+    <string name="tv_jiu">快揪</string>
+    <string name="tv_chui_jiu">捶加揪</string>
+    <string name="tv_zuhe">复合式</string>
+    <string name="tv_settime">时间设定</string>
+    <string name="tv_pause_start">暂停/开始</string>
+    <string name="tv_close">关闭设备</string>
+    <string name="tv_dang">档</string>
+    <string name="tv_jianbu">肩部</string>
+    <string name="tv_position">部位</string>
+    <string name="tv_introduce">介绍</string>
+    <string name="tv_jianbu_introduce">肩部僵硬：长时间固定一个姿势的人，血液循环不通畅，肩膀或脖颈易僵硬酸痛。刺激肩井穴可有效缓解。</string>
+    <string name="tv_beibu">背部</string>
+    <string name="tv_beibu_introduce">肩背酸痛：久坐后肩背酸痛，长期按压肩井穴和天宗穴可有效缓解。</string>
+    <string name="tv_yaobu">腰部</string>
+    <string name="tv_yaobu_introduce">腰痛：工作姿势不对或过度疲劳易致腰痛，刺激阿是穴（身体不适之处）可有效缓解。刺激肾俞穴可理气止痛。</string>
+    <string name="tv_sizhi">四肢</string>
+    <string name="tv_sizhi_introduce">消除疲劳：每日压力大，心烦气躁时，刺激内关穴可有效缓解。\n消除酸痛：久站或运动量过大时，小腿肌肉酸痛刺激委中穴可有效缓解。</string>
+    <string name="btn_check">查看穴位</string>
+    <string name="btn_update_name">设备命名</string>
+    <string name="btn_update_device">更改设备</string>
+    <string name="btn_explain">操作说明</string>
+    <string name="btn_about">产品信息</string>
+    <string name="edit_named">请输入名称</string>
+    <string name="btn_named_ok">确  定</string>
+    <string name="tv_current_name">当前设备：</string>
+    <string name="btn_search">搜   索</string>
+    <string name="btn_refresh">刷新</string>
+    <string name="loading_inint">正在初始化...</string>
+    <string name="tips_dianjipian">电极片已脱落！</string>
+    <string name="tips_title">提示</string>
+    <string name="tips_OK">确  定</string>
+    <string name="tips_cancel">取消</string>
+    <string name="tips_exit">退出</string>
+    <string name="toast_connect_OK">连接成功</string>
+    <string name="progress_reconnecting">正在重新连接...</string>
+    <string name="progress_searching">正在搜索设备...</string>
+    <string name="progress_testing">正在测量,请勿退出!</string>
+    <string name="dialog_find_no">未找到可用设备</string>
+    <string name="dialog_power_on">请确保设备已打开并靠近手机</string>
+    <string name="dialog_search_again">重新搜索</string>
+    <string name="dialog_connected_now">是否现在连接？</string>
+    <string name="dialog_not_connected">未连接设备</string>
+    <string name="txt_start">开始</string>
+    <string name="tv_pause">暂停</string>
+    <string name="toast_15_minutes">15分钟后关机</string>
+    <string name="toast_30_minutes">30分钟后关机</string>
+    <string name="toast_60_minutes">60分钟后关机</string>
+    <string name="toast_cancel_time_off">取消定时关机</string>
+    <string name="dialog_power_off">确定要关机吗？</string>
+    <string name="toast_to_exit">再按一次退出程序</string>
+    <string name="tips_no_equipment_available">没有找到可用设备</string>
+    <string name="tips_no_bluetooth">抱歉！您的手机暂不支持蓝牙4.0版本！</string>
+    <string name="tips_power_shortage">电量不足！30秒后将自动关机！</string>
+    <string name="tv_explain_title_1">手机操作界面说明</string>
+    <string name="tv_explain_content_A">\nA.&#160;&#160;&#160;&#160;打开包装盒，将随身松贴片安装到主机上，然后将贴片贴于身体不适处。</string>
+    <string name="tv_explain_content_B">B.&#160;&#160;&#160;&#160;按下主机电源开关。</string>
+    <string name="tv_explain_content_C">C.&#160;&#160;&#160;&#160;在手机“设置”中开启蓝牙功能，点击手机桌面上的蓝牙版随身松操作软件图标，进入软件界面后，系统自动搜索蓝牙随身松设备，如下图二所示。</string>
+    <string name="tv_explain_tu_2">图二</string>
+    <string name="tv_explain_tu_3">图三</string>
+    <string name="tv_explain_tu_4">图四</string>
+    <string name="tv_explain_tu_5">图五</string>
+    <string name="tv_explain_tu_6">图六</string>
+    <string name="tv_explain_tu_7">图七</string>
+    <string name="tv_explain_content_D">D.&#160;&#160;&#160;&#160;打开需要配对的主机后，自动完成连接步骤，如图三所示。
+\n※（由于蓝牙随身松主机名称默认都是相同的，因此第一次进行配对连接的时候，建议不要同时打开两个或两个以上的蓝牙随身松主机，以避免分不清手机控制哪一台随身松主机。当配对成功后，手机和主机将一对一绑定，后续若同时打开多个随身松主机，该手机只与这个随身松主机配对，不受其他主机干扰。如要更改当前绑定的主机，请在“设置界面-更改设备”中配置。）</string>
+    <string name="tv_explain_content_E">E.&#160;&#160;&#160;&#160;进入主操作界面， 选择对应的模式，按档位加强键，开始随身松体验。</string>
+    <string name="tv_explain_content_E_2">随身松操作界面上有关机键、开始/暂停键、定时关机键、六种模式键，档位加强键+，档位减弱键-。\n
+\n&#160;&#160;&#160;&#160;1.关机——关闭蓝牙随身松主机，再次使用时，需要手动按随身松主机上的开关 。
+\n&#160;&#160;&#160;&#160;2.开始/暂停键——点击一次，主机暂停输出，此时点击任一模式键或档位加减键均无反应，功能不生效；当再次点击时，主机恢复暂停前的模式和档位继续工作。
+\n&#160;&#160;&#160;&#160;3.模式键——点击相应的模式键， 转换到对应的模式：敲击、揉捏、快慢捶、针灸、捶加揪、复合式。
+\n&#160;&#160;&#160;&#160;4.功能加强健— —点击一次，力度加强一档，直到最强第10档。
+\n&#160;&#160;&#160;&#160;5.功能减弱键——点击一次，力度减弱一档，直到最弱第0档。</string>
+    <string name="tv_explain_content_F">F.&#160;&#160;&#160;&#160;选择合适的模式，按功能调整键，初始强度为0档，即最弱档，使用者可根据个人情况，调整到合适的状态。</string>
+    <string name="tv_explain_content_G">G.&#160;&#160;&#160;&#160;放松完毕，点击操作界面上的“关机”键，或关闭随身松主机开关，取下贴片并与主机分离，将贴片重新贴上保护膜，以防灰尘潮湿等，延长使用寿命。</string>
+    <!-- <string name="tv_explain_content_H">H.&#160;&#160;&#160;&#160;关闭随身松主机开关，取下贴片并与主机分离，将贴片重新贴上保护膜，以防灰尘潮湿等，延长使用寿命。</string> -->
+    <string name="tv_explain_careful">※注意事项</string>
+    <string name="tv_explain_careful_2">1. 若蓝牙长时间无法连接，先确认主机电池是否有电，重启蓝牙版随身松APP和随身松主机，系统会自动重新搜索连接。
+\n2. 当有电话进来时，手机自动退出随身松操作界面，主机依旧运行；接听完毕后，手机自动转回操作界面，可继续进行按摩操作。
+\n3. 在联机操作过程中，如操作软件10秒内未能搜索到可用设备，手机操作界面会提示“请确保主机已打开并靠近手机”，须确认主机电池电量是否耗尽，手机与设备的距离是否在有效范围内。
+\n4. 若15分钟内持续无输出，主机会自动关机，再次使用请重启主机。
+\n5. 主机指示灯说明：</string>
+    <string name="tv_explain_guide">使用指导说明</string>
+    <string name="tv_explain_guide_content">使用指导界面向用户介绍人体各个穴位分布情况，用户可参照对应的穴位图粘贴贴片，以达到最佳治疗效果。</string>
+    <string name="tv_explain_setting">设置界面说明</string>
+    <string name="tv_explain_setting_content">在设置界面，用户可以设置当前设备的名称，以便用户区分不同的随身松主机。 当手机需要连接另一台随身松设备时，打开“设置界面-更改设备”，搜索到对应的设备名称，如图七所示，点击设备的名称，软件自动配对到该设备上。</string>
+    <string name="tv_about_title">蓝牙版随身松产品信息</string>
+    <string name="tv_about_title_tedian">产品特点</string>
+    <string name="tips_open_bluetooth">请打开蓝牙后使用</string>
+    <string name="tv_about_title_tedian_1">*&#160;&#160;&#160;&#160;无线智能\n*&#160;&#160;&#160;&#160;迷你便携\n*&#160;&#160;&#160;&#160;环保节能</string>
+    <string name="tv_about_title_yuanli">原理功能</string>
+    <string name="tv_about_title_yuanli_1">&#160;&#160;&#160;&#160;主机采用国际先进的微控芯片技术和蓝牙低功耗技术，产生电子生物脉冲波，刺激人体肌肉，让人产生敲击、揉捏、快慢捶、快揪、捶加揪、复合式等感觉，有效缓解疲劳、减轻肌肉酸痛等症状。</string>
+    <string name="tv_about_title_dianchi">电池</string>
+    <string name="tv_about_title_dianchi_1">3.7V/&#160;&#160;&#160;&#160;200mAh&#160;&#160;&#160;&#160;可充电锂电池</string>
+    <string name="tv_about_title_model">使用模式</string>
+    <string name="tv_about_title_model_1">敲击、揉捏、快慢捶、快揪、捶加揪、复合式</string>
+    <string name="tv_about_title_dangwei">档位强度</string>
+    <string name="tv_about_title_dangwei_1">10档可调</string>
+    <string name="tv_about_title_xuhang">续航时间</string>
+    <string name="tv_about_title_xuhang_1">主机充电2.5小时，电池续航能力20小时以上</string>
+    <string name="tv_about_title_peibei">手机配备</string>
+    <string name="tv_about_title_peibei_1">安卓4.3或IOS7.0以上系统，并具备蓝牙功能</string>
+    <string name="tv_about_title_shuchu">输出频率</string>
+    <string name="tv_about_title_shuchu_1">4-180Hz</string>
+    <string name="tv_explain_title_jinji">使用禁忌
+\n&#160;&#160;&#160;&#160;1. 使用心脏起搏器或其他延续生命的医疗电子仪器者，禁用此产品。
+\n&#160;&#160;&#160;&#160;2. 高危病人禁用。
+\n&#160;&#160;&#160;&#160;3. 不能使用在伤口、人体薄弱部位或感染活动期的皮肤上。
+\n&#160;&#160;&#160;&#160;4. 女性经期，孕妇，对本产品过敏、不适者慎用。
+\n&#160;&#160;&#160;&#160;5. 在使用时，禁止两片贴片相互黏贴。
+\n&#160;&#160;&#160;&#160;6. 不建议边充电边放松。
+\n&#160;&#160;&#160;&#160;7. 乘坐飞机时请勿用本产品。
+\n&#160;&#160;&#160;&#160;8. 请勿在电脑启动时连接USB线充电。
+\n&#160;&#160;&#160;&#160;9. 如长期不用，请关机主机电源。</string>
+    <!-- 智能血压计 -->
+    <string name="tv_bpmonitor_znbp">智能血压计</string>
+    <string name="tv_bpmonitor_mainname">血压计</string>
+    <string name="tv_bpmonitor_name">血压计(未连接)</string>
+    <string name="tv_bpmonitor_connected">血压计(已连接)</string>
+    <string name="tv_bpmonitor_set">设置页面</string>
+    <string name="tv_bpmonitor_addnew">添加新设备</string>
+    <string name="tv_bpmonitor_bindsuccess">绑定成功</string>
+    <string name="tv_bpmonitor_connect_desc">\u3000\u3000保证您已完成血压计佩戴，打开血压计，保证血压计显示如下画面。</string>
+    <string name="tv_bpmonitor_connect_scan">扫             描</string>
+    <string name="tv_bpmonitor_connect_skip">跳     过</string>
+    <string name="tv_bpmonitor_change">更改设备</string>
+    <string name="tv_bpmonitor_instruction">产品说明</string>
+    <string name="tv_bpmonitor_familynumber">亲情号码</string>
+    <string name="tv_bpmonitor_bps">收缩压</string>
+    <string name="tv_bpmonitor_bpd">舒张压</string>
+    <string name="tv_bpmonitor_pulse">脉搏</string>
+    <string name="tv_bpmonitor_pulseunit">/min</string>
+    <string name="tv_bpmonitor_bpunit">mmHg</string>
+    <string name="tv_bpmonitor_testagain">开始测量</string>
+    <string name="tv_bpmonitor_saveresult">保存结果</string>
+    <string name="txt_bpmonitor_bp">血压</string>
+    <string name="txt_bpmonitor_setting">设置</string>
+    <string name="tv_bpconnect_bind">绑定成功</string>
+    <string name="tv_bpconnect_unbind">未绑定</string>
+    <!-- 智能跳绳 -->
+    <string name="tv_skip_name">智能跳绳</string>
+    <string name="tv_todaytotal">本日累计次数</string>
+    <string name="tv_todaytotalconsume">本日累计消耗</string>
+    <string name="tv_cal">卡路里</string>
+    <string name="tv_time">时间</string>
+    <string name="tv_count">次数</string>
+    <string name="tv_speed">速度</string>
+    <string name="tv_target0">目标 : 0 次</string>
+    <string name="tv_target">目标</string>
+    <string name="tv_second">次</string>
+    <string name="tv_sporttimechoose">运动时间周期选择</string>
+    <string name="cb_monday">周一</string>
+    <string name="cb_tuesday">周二</string>
+    <string name="cb_wednesday">周三</string>
+    <string name="cb_thursday">周四</string>
+    <string name="cb_friday">周五</string>
+    <string name="cb_saturday">周六</string>
+    <string name="cb_sunday">周日</string>
+    <!-- 运动手环 -->
+    <string name="tv_bracelet_name">运动手环</string>
+    <string name="tv_bracelet_search">搜索设备</string>
+    <string name="tv_bracelet_message">版本信息</string>
+    <string name="tv_bracelet_stepcount">计步参数</string>
+    <string name="tv_testmessage">测量信息</string>
+    <string name="tv_personalcenter">个人中心</string>
+    <string name="tv_step">步</string>
+    <string name="tv_sleep">睡眠</string>
+    <string name="tv_hour">小时</string>
+    <string name="tv_beat">击败0%用户</string>
+    <string name="tv_distance">距离</string>
+    <string name="tv_meter1">米</string>
+    <string name="tv_meter">0米</string>
+    <string name="tv_kcal">千卡</string>
+    <string name="tv_cal0">0千卡</string>
+    <string name="tv_heartrate">心率</string>
+    <string name="tv_heartrate1">次/分</string>
+    <string name="tv_heartrate0">0次/分</string>
+    <string name="tv_deepsleep">深睡</string>
+    <string name="tv_0h0m">0时0分</string>
+    <string name="tv_lightleep">浅睡</string>
+    <string name="tv_fatigue">疲劳度</string>
+    <string name="bt_testrate">检测心率</string>
+    <string name="bt_share">分  享</string>
+    <!-- 代码中的文字 -->
+    <string name="add_namenull">名称不能为空</string>
+    <string name="add_heightrange">身高范围50-255CM</string>
+    <string name="add_agerange">年龄范围5-120岁</string>
+    <string name="add_weightnull">体重不能为空</string>
+    <string name="add_timeout">连接超时</string>
+    <string name="add_namenull1"></string>
+    <string name="find_accountnull">账号不能为空</string>
+    <string name="find_answernull">答案不能为空</string>
+    <string name="find_changesuc">修改成功</string>
+    <string name="find_passwordnull">密码不能为空</string>
+    <string name="find_passworddif">两次输入密码不一致</string>
+    <string name="his_netfail">网络请求数据失败</string>
+    <string name="login_wx">微信登陆</string>
+    <string name="login_wxnot">微信客户端未安装</string>
+    <string name="login_success">登陆成功</string>
+    <string name="main_notlogin">亲！您还没登录哦</string>
+    <string name="main_cancel">注销账号</string>
+    <string name="main_tologin">请登录账号</string>
+    <string name="main_developing">功能开发中，敬请期待...</string>
+    <string name="main_toadd">请添加用户</string>
+    <string name="main_deletesuc">删除成功</string>
+    <string name="register_accountnull">账号不能为空</string>
+    <string name="register_passwordnull">密码不能为空</string>
+    <string name="register_answernull">答案不能为空</string>
+    <string name="send_phonenull">手机号不能为空</string>
+    <string name="send_codeerror">验证码不正确</string>
+    <string name="send_codeis">验证码为</string>
+    <string name="send_inputover">，请在注册页面中输入以完成注册！</string>
+    <string name="skip_goal">目标: </string>
+    <string name="skip_second"> 次</string>
+    <string name="toast_dataerror">数据错误</string>
+    <string name="skip_thin">真瘦啦</string>
+    <string name="skip_desc">描述</string>
+    <string name="skip_countmin"> 次/min</string>
+    <string name="skip_hour">时</string>
+    <string name="skip_minute">分</string>
+    <string name="skip_second1">秒</string>
+    <string name="toast_upsuccess">上传数据成功</string>
+    <string name="toast_upfail">上传数据失败</string>
+    <string name="toast_netfail">服务器连接失败</string>
+    <string name="toast_isconnect">亲，网络连了么？</string>
+    <string name="toast_openbluetooth">请打开蓝牙</string>
+    <string name="toast_connectchange">请连接设备后再做更改</string>
+    <string name="toast_sharesuc">分享成功</string>
+    <string name="toast_istesting">正在测量,请稍后再试...</string>
+    <string name="toast_testbefore">请先测量！</string>
+    <string name="toast_testsave">本次测量已经保存！</string>
+    <string name="toast_stateerror">血压计状态异常</string>
+    <string name="toast_signalweak">信号弱，请重新测量！</string>
+    <string name="toast_signalinterfere">信号被干扰！</string>
+    <string name="toast_testlong">测量时间过长，请重新测量！</string>
+    <string name="toast_resluterror">测量结果异常，请重新测量！</string>
+    <string name="toast_erroragain">校正异常，请重新测量！</string>
+    <string name="toast_electricitylow">电量低，请更换电池！</string>
+    <string name="bp_low">偏低</string>
+    <string name="bp_perfect">理想</string>
+    <string name="bp_normal">正常</string>
+    <string name="bp_high1">轻度偏高</string>
+    <string name="bp_high2">中度偏高</string>
+    <string name="bp_high3">重度偏高</string>
+    <string name="bp_hign">偏高</string>
+    <string name="bp_range">血压参考范围</string>
+    <string name="bracelet_testing">检测中...</string>
+    <string name="bracelet_testfatigue">正在测试疲劳</string>
+    <string name="bracelet_datalength">数据长度=</string>
+    <string name="bracelet_notconnect">蓝牙未连接</string>
+    <string name="bracelet_testrate">正在测试心率</string>
+    <string name="bracelet_fatigue">疲劳</string>
+    <string name="bracelet_lively">活泼</string>
+    <string name="bracelet_fatiguelittle">轻微疲劳</string>
+    <string name="bracelet_testfatigue1">检测疲劳</string>
+    <string name="bracelet_refresh">实时刷新</string>
+    <!-- 音频随身松 -->
+    <string name="audio_title">E身松</string>
+    <string name="anfei_title">安菲</string>
+    <string name="recover_title">盆底康复</string>
+    <string name="tv_anfei_xinli">心理评估</string>
+    <string name="tv_anfei_jiance">心理监测</string>
+    <string name="tv_anfei_connect_desc">\u3000\u3000 保证您的腕带在身边，打开且有电量，点击扫描按键进行自动绑定。</string>
+    <string name="tv_anfei_main">主页</string>
+    <string name="tv_anfei_baike">百科</string>
+    <string name="tv_anfei_set">设置</string>
+    <string name="tv_anfei_mains">安菲心理健康分析仪通过测试心电及心率变异，来分析用户的精神压力状态。比你更懂你自己。</string>
+    <string name="tv_anfei_suggest">\u3000\u3000 目前建议的主要运动形式为有氧运动、抗阻运动、耐力运动和柔韧性运动等，核心运动为有氧运动。 有氧运动过程中。人体吸入的氧气量大体与体内需求量相等，且对运动技巧要求不高,如步行、跑步、游泳、骑自行车、爬山、跳绳、踢毽、跳健身舞、扭秧歌等。</string>
+    <string name="tv_anfei_test_des">\u3000\u3000请保持放松状态，测试过程中可选择坐在一张舒适的椅子上，或保持站立姿势，将血氧传感器套在食指末端，确保血氧传感器良好接触手指，并按左图示贴好电极片。请确认安菲腕带已通过蓝牙与APP连接，并保证安菲腕带在使用过程中电量充足。</string>
+    <string name="tv_anfei_food1">抗压良方维生素：食物中维生素B含量较多的有：胚芽米，糙米，全麦面包，酵母，深色蔬菜，低脂牛奶，豆浆，蛋，菠菜，番茄等。</string>
+    <string name="tv_anfei_food2">补充钙质巧减压 ：含钙丰富的食品主要有：牛奶，奶酪，酸奶等奶制品，豆制品以及南瓜等蔬菜。</string>
+    <string name="tv_anfei_food3">控制糖分的摄入，科学的膳食习惯 。</string>
+    <string name="tv_anfei_sport1">1.跑步。跑步时间在傍晚为宜，速度120步/min，每周至少3次，每次持续15min。</string>
+    <string name="tv_anfei_sport2">2.跳绳。速度为30—60次/min，隔天1次，每次持续10min。</string>
+    <string name="tv_anfei_sport3">3.健身舞。在健身教练指导下进行，由医护人员选择入组患者，每组不超过15min，既让患者感受到了集体活动的乐趣，又不至于因人数太多而使个别患者被忽略。每周3次，每次持续20 min</string>
+    <string name="tv_anfei_sport4">4.散步，在优美安静的环境中进行，每天步行1 500 m，并力争在15 min内走完，以后逐渐增加距离，直到45 min走完4 500 m。</string>
+    <string name="tv_anfei_sport5">5.足球疗法。根据患者爱好和身体状况，选择恢复期患者参加。为便于看管和避免混乱，每组选择10例，以娱乐为主，象征性比赛。每周2次，每次30 min</string>
+    <string name="tv_anfei_sport6">6.太极拳。每周4次，每次20 min。其它集体运动。如传球活动、排球运动或体育游戏等。每周至少参加2次集体运动，每次30 min。</string>
+    <string name="tv_anduio_guide1">1. 扫描包装盒上的二维码，下载对应软件并进行安装。</string>
+    <string name="tv_anduio_guide2">2. 打开包装盒，将E身松贴片安装到主机上，然后将贴片贴于身体不适处。</string>
+    <string name="tv_anduio_guide3">3. 点击手机桌面上的APP图标，进入软件界面后，将E身松设备插入手机耳机接口。</string>
+    <string name="tv_anduio_guide4">4. 进入主操作界面，默认选择敲击模式，时间设定为30分钟，点击功能加强键，开始E身松体验。  </string>
+    <string name="tv_anduio_guide5">5. E身松操作界面上有关机键、开始/暂停键、定时关机键、六种模式键、功能加强键+、功能减弱键-。</string>
+    <string name="tv_anduio_guide51">关机键：关闭E身松</string>
+    <string name="tv_anduio_guide52">开始/暂停键：点击一次，开始输出，主机开始工作，再点一次，停止输出，主机暂停工作。</string>
+    <string name="tv_anduio_guide53">模式键：点击相应的模式键，即可转换到对应模式，总共有敲击、揉捏、快慢捶、快揪、捶加揪、复合式6种模式。</string>
+    <string name="tv_anduio_guide54">功能加强键+：点击一次，力度加强一档，直到最强第10档。</string>
+    <string name="tv_anduio_guide55">功能减弱键-：点击一次，力度减弱一档，直到最弱第0档。</string>
+    <string name="tv_anduio_guide56">选择适合的模式，按功能调整键，初始强度为0档，即最弱档，使用者可根据个人情况，调整到合适的状态。</string>
+    <string name="tv_anduio_guide57">放松完毕，点击手机关机键，关闭E身松操作，按手机返回键退出界面。</string>
+    <string name="tv_anduio_guide58">关闭E身松主机开关，取下贴片并与E身松主机分离，将贴片重新贴上保护膜，以防灰尘潮湿等，延长使用寿命。</string>
+    <string name="read_data_start">连接完成，启动数据读取</string>
+    <string name="service_get_socket_fail">获取Socket失败</string>
+    <string name="service_get_socket_ok">socket连接成功</string>
+    <string name="service_get_inputstream_fail">获取输入流失败</string>
+    <string name="service_get_inputstream_ok">获取输入流完成</string>
+    <string name="service_read_data_fail">蓝牙断开</string>
+    <string name="recording">记录中...</string>
+    <string name="record_finished">记录结束</string>
+    <string name="anfei_baogao2_txt1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;自主神经系统（ Autonomic nervous system， ANS）包括交感神经系统和副交感神经系统。交感神经兴奋，可以兴奋心跳，促使心率加快、心室压力增高；副交感神经兴奋，可以抑制心跳，使心率减慢、心室压力降低。自主神经系统调节能力越好，越健康，对情绪、压力的调节能力就越强。</string>
+    <string name="anfei_baogao2_pingheng">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;交感神经活动与副交感神经活动处于平衡状态，非常棒！</string>
+    <string name="anfei_baogao2_fujiaogan">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;副交感神经系统可保持身体在安静状态下的生理平衡，与交感神经作用相反。副交感神经过于兴奋，会引起人体：血压降低、心跳减慢（循环系统）、尿频、尿急（泌尿系统）、乏力、精神不振、工作效率低。</string>
+    <string name="anfei_baogao2_jiaogan">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;当机体处于紧张活动状态时，交感神经活动起着主要作用。交感神经过于兴奋，会引起人体：血压升高、心动过速（循环系统）、呼吸急促（呼吸系统）、消化不良、便秘（消化系统）、尿失禁（泌尿系统）、大汗（皮肤疾病、汗腺）、偏头痛（中枢神经系统）、躁动、高热、头晕。
+\n专家建议：
+\n健康饮食，有规律的工作，休息时间。加强户外活动，有氧运动，促进全身血液循环。倾听放松类音乐配合呼吸疗法，适当转移注意力，缓解压力。</string>
+    <string name="anfei_xinli_yali1">心理压力小，精神状况好！心理压力是个体在生活适应过程中的一种身心紧张状态，源于环境要求与自身应对能力不平衡；反映当前测试的心理状态，您的心理压力值低，是很好的值，神经系统应对能力强，有轻松愉悦的心理状态！</string>
+    <string name="anfei_xinli_yali2">心理压力较小，精神状况良好！心理压力是个体在生活适应过程中的一种身心紧张状态，源于环境要求与自身应对能力不平衡；反映当前测试的心理状态，您的心理压力值居中，是良好的值，神经系统应对能力较强，有比较轻松乐观的心理状态！</string>
+    <string name="anfei_xinli_yali3">心理压力较大，精神压力较大！心理压力是个体在生活适应过程中的一种身心紧张状态，源于环境要求与自身应对能力不平衡；反映当前测试的心理状态，您的心理压力值比较高，是偏高的值，神经系统应对能力较弱。要注意放松自己，多做深呼吸，保持愉悦的心态！</string>
+    <string name="anfei_xinli_yali4">心理压力大，精神压力大！心理压力是个体在生活适应过程中的一种身心紧张状态，源于环境要求与自身应对能力不平衡；反映当前测试的心理状态，您的心理压力值高，神经系统应对能力弱。要特别注意放松自己，多做深呼吸，多跟家人和医生沟通，保持愉悦的心态！</string>
+    <string name="anfei_shengli_yali1">生理压力小，身体状况好！生理压力反映身体长期负荷累积的压力，反映您的身体状况。您的身体生理活性强，有良好的休息和充足的运动，身体机能保持在优秀的水平！</string>
+    <string name="anfei_shengli_yali2">生理压力较小，身体状况良好！生理压力反映身体长期负荷累积的压力，反映您的身体状况。您的身体生理活性较强，有较好的休息和充足的运动，身体机能保持在良好的水平！</string>
+    <string name="anfei_shengli_yali3">生理压力较大，身体负荷较大。生理压力反映身体长期负荷累积的压力，反映您的身体状况。您的身体累积负荷较大，身体生理活性良好，身体机能压力较大，要注意有充足的睡眠和适当的运动！</string>
+    <string name="anfei_shengli_yali4">生理压力大，身体负荷大。生理压力反映身体长期负荷累积的压力，反映您的身体状况。您的身体累积负荷大，身体生理活性较差，身体机能压力大。要注意有足够的休息，放松的心态和适当的运动，如有需要，请及时跟医生沟通！</string>
+    <string name="anfei_yiyu1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;您当前一段时间内情绪状态较差，有负面抑郁情绪。这可能会给您的生活带来一定的影响，例如轻微头痛、身体酸痛、易疲劳、睡眠质量差、工作效率降低等。健康的饮食和适当的运动有助于您调节积极的情绪状态，建议您提高自我适应能力和自我调节能力。
+\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;有氧锻炼可以加快血液循环，增加大脑供氧量，促进内啡肽和血清素的分泌，可根据自身身体情况选择一种容易坚持的运动，比如慢跑、散步、跳绳、健身舞等。坚持运动，加强自我调节能力，能达到事半功倍的效果。建议做适当自我调节，必要时可寻求专业医生的帮助。</string>
+    <string name="anfei_yiyu2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;您当前一段时间内情绪状态非常好，无抑郁情绪。良好的情绪状态会给您的生活带来强大的源动力。这与您的适应能力、自我调节能力有关，健康的饮食和适当的运动有助于您保持当前愉悦的状态。深呼吸有助于日常紧张状态的放松，适当的运动也有利于保持好心情。</string>
+    <string name="anfei_baike1_n1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;心血管系统包括心脏、动脉、静脉和微循环，心脏是推动血循环的动力源，心脏有节律的收缩与舒张运动，保证了心脏具有推动血液循环的动力泵作用；血管是血液循环的管路系统，包括动脉、毛细血管与静脉，动脉是将血液从心脏输送到毛细血管的中间管段。
+	    动力系统与管路系统是维持血液循环、血液和组织间物质交换、以及液体信息传递的结构基础。心血管疾病是对人类健康和生命构成威胁最大的一组疾病,而其发生往往是由多种因素共同作用所导致的。吸烟、不合理的饮食、缺乏体育锻炼、经常性的心理紧张、遗传等等,都会使血液中的有害成分（如总胆固醇、甘油三脂、低密度脂蛋白胆固醇等）急剧增高,从而导致多种心血管疾病的发生。</string>
+    <string name="anfei_baike1_n2">动脉硬化及其危险因素</string>
+    <string name="anfei_baike1_n3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;一般而言，心血管疾病患者大多会伴随着有动脉硬化的现象，动脉硬化是动脉的一种非炎症性、退行性和增生性的病变,可引起动脉壁增厚、变硬、失去弹性，最终可导致管腔狭窄，表现为血液顺应性下降、血压升高等。动脉硬化的早期症状不明显，一般经过多年才在临床上有所表现，
+	    但血管弹性、血压、血管顺应性等一系列反映心血管状况的参数实际上已经开始发生变化。如果能及时地检查出这些参数的变化，就可能在动脉硬化发生的早期及早检测到动脉僵硬度的改变，完全可以通过药物或者合理的饮食来逆转动脉硬化的发展。</string>
+    <string name="anfei_baike1_n4">动脉硬化的原因</string>
+    <string name="anfei_baike1_n5">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;动脉硬化是生活中比常见的一种心血管疾病，那么导致这一疾病的原因有哪些呢？下面给大家介绍导致动脉硬化的5种常见原因，供大家参考。</string>
+    <string name="anfei_baike1_n6">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1、吸烟：吸烟能引起血液中烟碱、一氧化碳增加，可引起中心动脉痉挛、血小板黏附性加大、血流速度减慢、氧自由基积聚，吸烟还可引起血管内皮细胞的直接损伤，导致胆固醇的沉积。</string>
+    <string name="anfei_baike1_n7">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;2、糖尿病：糖尿病患者主要是由于脂肪代谢存在异常，由胰岛功能减退、胰岛素抵抗功能低下等而引发糖、蛋白质、脂肪、水和电解质等一系列代谢紊乱，在通过血压代谢过程中，就易损伤血管，诱发动脉硬化。</string>
+    <string name="anfei_baike1_n8">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;3、饮食：饮食中含有的饱和脂肪酸越高，导致血液中的胆固醇浓度就越高，越容易沉积在动脉内壁，因此越容易发生动脉粥样硬化。</string>
+    <string name="anfei_baike1_n9">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;4、高血压：高血压患者由于血压的升高，高压血流长期冲击动脉壁引起动脉内膜机械性损伤，造成血脂易在动脉壁沉积，形成脂肪斑块并造成动脉硬化狭窄。高血脂患者，由于其本身血中胆固醇高、甘油三酯高，这些物质在体内合成时，容易残存在血管壁上，血管壁增厚，形成斑块，斑块破裂形成血栓，堵塞血管。</string>
+    <string name="anfei_baike1_n10">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;5、缺少运动：运动可以增加高密度脂蛋白，减少低密度脂蛋白，帮忙身体把多余胆固醇从胆道与肠道排出体外，避免过剩胆固醇沉积在血管内壁。此外，运动可以促进血液循环，增加血管弹性，降低血压，消耗过剩热量，使身体脂肪比重减少，肌肉比重增加，而减轻体重。因此缺乏运动的人很容易得到粥状动脉硬化。</string>
+    <string name="anfei_baike2_n1">HRV与压力</string>
+    <string name="anfei_baike2_n2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;虽然心脏自律性源于具有起搏能力的各种心脏组织，而其电活动和收缩活动主要有ANS（自主神经系统）调控。窦房结是心脏的最高起搏点，窦房结与房室束密布两种自主神经纤维，即交感神经纤维和副交感神经纤维。神经调节的功能作用是保证心脏基本的血流动力学特征（血压、心输出量等），使其能够按照需要工作，正常应对机体所处的环境变化和生理因素的变化。由于机体所处的外界环境和机体自身的内环境是一个时刻变化的状态，因此神经系统调节心脏适应环境变化的过程中，心脏在周期性收缩舒张保证机体正常生理需求外，心脏的这种周期性活动中每个心跳周期会存在微小的差异，称之为心率变异性（Heart Rate Variability，HRV），通常通过分析心电图或动脉压描记中逐次心搏间期的时间序列来计算，HRV的具体表现就是上述心动周期的不规则变化，这种不规则变化即使是在正常稳定状态下也会存在的。
+	    \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;心率变异性在临床上用于评价自主神经系统功能已有数十年历史，并且有较明确的生理机制，心率变异性主要反映的是人体自主神经系统中的交感神经和副交感神经对窦房结的调节。HRV 关注的是正常窦性心搏间期的差异，对 HRV 的深入分析可以获取有关自主神经系统对心脏调节功能的信息，是一种公认的客观评价自主神经系统功能的方法。在基于 HRV 理论的有关压力的相关研究中表明：压力较大人群的 HRV 参数与正常人相比有着明显的变化。这种变化主要表现在其交感神经与副交感神经功能失衡，副交感神经的功能趋于减弱而交感神经的功能趋于增强。</string>
+    <string name="anfei_baike2_n3">HRV测量方法</string>
+    <string name="anfei_baike2_n4">心率变异性测量的是两次连续心搏间期的差异，称为心脏间期（R-R间期），单位是毫秒（ms），心脏间期取自脉搏波信号，如下图所示：</string>
+    <string name="anfei_baike2_n5">心率变异性的各式测量方法可以粗略地分成时域、频域和非线性测量。</string>
+    <string name="anfei_baike2_n6">人体多数器官受到交感神经和副交感神经的控制，自主神经系统活性越好，说明越健康，对于压力的调节能力也越强。交感神经和副交感神经应处于平衡状态，若一方过高或过低，自主神经系统将失去平衡，若长期处于持续的不平衡状态，很容易引起相关疾病。自主神经系统的活性决定着人体抗压能力的强弱，在人们面对压力时，抗压能力弱者就更容易引起与压力相关的各种健康问题。安菲压力分析系统通过心率变异性分析为大众人群提供健康信息的科学管理。</string>
+    <string name="anfei_baike3_n1">自我催眠：</string>
+    <string name="anfei_baike3_n2">采取仰卧或坐位，使身体各均处于舒适放松的姿势下练习。先把注意集中在于自己的身体感觉，内视自己，进行自我催眠和暗示。首先不断利用“信心、勇气和满足”等积极性情感和美好的意象，驱除烦闷、不安和悲伤等各种消极性情感，进而有针对性地对自己进行自我规划、自我强化、提高自我控制能力，以达到预期的效果。</string>
+    <string name="anfei_baike3_n3">稍稍冥想：</string>
+    <string name="anfei_baike3_n4">在安静的房间内，选择舒适的体位，耳边听着大自然的声音（雨声、海浪声、鸟鸣声），进行全身肌肉放松，配合呼吸运动，待体内空气全部吐出后再吸入新的空气，调整呼吸，潜意识接纳自己，只需冥想10分钟，多次练习后可增至30分钟。</string>
+    <string name="anfei_baike3_n5">听听音乐：</string>
+    <string name="anfei_baike3_n6">音乐是一种非语言艺术性社交方式， 从音乐作品中人们可获得或轻松欢快、或激动昂扬、或悲伤哀愁等基本情绪体验。节奏鲜明的音乐能让人精神振奋、热血沸腾，旋律悠扬的乐曲能使人安静、放松， 极大地影响人的情绪活动。 音乐作用于双侧大脑半球， 以右半球的活动占优势。那些旋律优美动听、节奏轻快明朗的音乐，经感觉通路传入大脑后，作用于大脑边缘系统和脑干网状系统，通过神经调节及体液调节，促进某些神经递质的分泌、转化，起到调整机体稳态、恢复生理平衡的作用，从而有利于增强机体免疫力。
+	    研究发现，人在听舒缓静谧的音乐时，心率减慢，肌肉放松，激活副交感神经系统，抑制交感神经系统，肾上腺素明显下降，内啡肽含量上升。内啡肽是一种类似于吗啡的物质，能让人产生欣快感。根据音乐的旋律、节奏、速度和力度等表现手法，可将其分为兴奋类、镇静类、松弛类、 伤感类等多种类别。镇静性的音乐舒缓婉转，像班得瑞系列、肖邦、舒伯特等人的小夜曲系列、 贝多芬的《月光奏鸣曲》等，中国古典音乐如古琴独奏《佩兰》、《流水》、《醉渔唱晚》 、 《平沙落雁》、《姑苏行》 、《鹧鸪飞》、《梅花三弄》 等，都具有消除紧张、安神定志的作 用， 适合临睡前听，助于睡眠和休息。解郁性的音乐曲调轻松，节奏多变，外国音乐有《春之声》 、 《蓝色多瑙河》 、 《 溜冰圆舞曲》 等系列圆舞曲，旋律轻快、活泼，充满勃勃生机；中 国音乐有《金蛇狂舞》 等，听了让人情不自禁情绪高涨。
+	    兴奋性的音乐，如贝多芬的《第九交响曲》、《欢乐颂》 、《命运》 、德沃夏克的《自新大陆》 、亨德尔的《哈里路亚》，都能从不同程度上缓解负面情绪。 就让音乐带您自由发挥想像力，体验自我生命的美感和内心世界丰 富的创造力，使身体和精神深度放松，达到释放或缓解压力的目的，恢复潜能， 保持饱满状态 投入工作和生活。</string>
+    <string name="anfei_baike3_n7">来运动吧：</string>
+    <string name="anfei_baike3_n8">生理学研究表明，体育锻炼可以驱散抑郁状态下释放的激素、葡萄糖和油脂，提高肾上腺髓质分泌儿茶酚胺的能力，起到降低抑郁水平的作用。体育锻炼可给予中枢神经以良好的刺激，神经细胞经常受到刺激和兴奋，可减缓退化和萎缩的过程，起到防止脑细胞衰退的作用；同时，系统的锻炼可以改善脑部的血液循环，增加葡萄糖的供给，最大限度地提高氧运输能力，使人精力旺盛；体育锻炼可通过释放能量物质，如通过释放脑肽——身体的天然麻醉剂，令人镇静和感到快乐；同时作为一种转移注意力的方法，还可以缓解抑郁症状，并能使人自信快乐，促进人际关系，充实生活。
+	    \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;目前建议的主要运动形式为有氧运动、抗阻运动、耐力运动和柔韧性运动等,核心运动为有氧运动。 有氧运动过程中,人体吸入的氧气量大体与体内需求量相等,且对运动技巧要求不高,如步行、跑步、游泳、骑自行车、爬山、跳绳、踢毽、跳健身舞、扭秧歌等,可据年龄、体力、病情、心功能和血压控制等情况任意选择 1 或 2 项运动项目。运动强度以不感到劳累为度,循序渐进从小运动量开始,依据靶心率(170 或 180 —年龄)控制运动强度。 每周运动频率控制在 3 ~ 4 次为宜,每次运动持续 40 ~ 60 min,包括 10 ~ 15 min热身运动、20 ~ 30 min 有氧运动、10 min 冷静期及5 ~ 10 min 放松期。</string>
+    <string name="anfei_baike3_n9">合理膳食：</string>
+    <string name="anfei_baike3_n10">实践证明，合理膳食是预防动脉硬化的关键步骤，它包括以下几方面内容。</string>
+    <string name="anfei_baike3_n11">① 膳食总热量不能过高，以维持正常体重为度，正常体重的简单计算方法为：身高(厘米)一105=体重(公斤数)。脂肪的摄入量不超过总热量的30％，动物性脂肪不超过10％，胆固醇的摄入每日不超过300mg，并限制酒和蔗糖以及其它含糖食物的摄入。
+	    \n② 提倡饮食清淡，多食用富含维生素C（如新鲜蔬菜、瓜果）和植物蛋白（如豆类及豆制品）的食物，在条件许可的条件下，尽量以豆油、菜籽油、麻油、玉米油、茶油、米糠油、红花油等为食用油。
+	    \n③ 降低胆固醇摄取：动物性来源含有胆固醇，含胆固醇最多的食物是猪脑、牛脑、肝脏、蛋黄、鱼卵、蚵、蛋糕、乳酪等。尽量吃鱼、白肉、瘦肉，并去皮食用。
+	    \n④ 减少饱和脂肪酸摄取：判别方式很简单，只要是在室温中会变成固体的油脂类，都含有高量饱和脂肪酸，比如猪油、牛油、奶油、椰子油等，植物蛋白质黄豆最好，黄豆不但是人体蛋白质的良好来源，也是防治高脂血症和冠心病健康食品，对妇女也特别好，可减轻更年期综合症。
+	    \n⑤ 很多食疗方法同样也有预防和治疗动脉硬化的作用，而合理饮食的基本内容是选择具有保健作用的食物。推荐以下健康食谱：</string>
+    <string name="anfei_baike3_n12">主食类：</string>
+    <string name="anfei_baike3_n13">①玉米：含有丰富的亚油酸、镁、维生素E、卵磷脂等具有降血胆固醇，防治高血压、动脉粥样硬化作用，镁还具有扩张血管，维持心肌功能。
+	    \n②荞麦：含有一些特殊营养成分，如苦味素、叶绿素、荞麦碱、云香苷(芦丁)、黄酮类等成分。其中尤其是云香碱对降压作用明显，黄酮类具有增强心肌泵功能，增强冠状动脉的供血量，预防冠心病和心律紊乱。
+	    \n③燕麦：含有丰富的亚油酸、活性酶纤维、燕麦胶，优质蛋白含15％等，是降低胆固醇、防止动脉粥样硬化的好食物。
+	    \n④大豆：含有丰富的黄酮类、食用纤维、不饱和脂肪酸、卵磷脂、膦脂酰胆碱、钙等，具有良好的降血脂和预防动脉粥样硬化等作用。
+	    \n⑤玉甘薯（地瓜）：含有丰富的β一胡萝卜素和维生素C、食用纤维、糖类。它的特点是可供人体大量胶原及黏液多糖类物质，可使动脉血管保持弹性，β一胡萝卜素和维生素C的强有力抗氧化作用，可预防脂质过氧化，有很好的预防动脉粥样硬化作用。</string>
+    <string name="anfei_baike3_n14">蔬菜类：</string>
+    <string name="anfei_baike3_n15">蔬菜类在预防动脉粥样硬化中起重要作用，其中较好的有：</string>
+    <string name="anfei_baike3_n16">①南瓜：含有多种生理活性成分，其中胡萝卜素、钴的含量都是瓜娄中最高的，铬的含量为一般食品的50多倍，是目前能延缓衰老、健康长寿的保健营养食品。
+	    \n②胡萝卜：含有丰富的β一胡萝卜素、槲皮素、山奈酚、食用纤维等，具有降血脂、抗氧化、预防脂质过氧化作用。
+	    \n③洋葱：据测定，洋葱含有前列腺素A，是天然的血液稀释剂，能降低外周血管阻力，降低血粘度，可用于降低血压、提神醒脑、缓解压力、预防感冒。此外，洋葱的辣味能抗寒，抵御流感病毒，有较强的杀菌作用；能促进消化，可用于治疗消化不良、食欲不振等；能清除体内氧自由基，增强新陈代谢能力，抗衰老，预防骨质疏松，是适合老年人的保健食物。食用洋葱以紫皮的为佳，其所含的蛋白质、膳食纤维以及钙、磷、钾、钠、镁、锌、铁等矿物质含量均比黄、白皮高。洋葱有多种吃法，生、熟食均可，亦可煲汤、做配料、调料和凉菜，但不宜加热过久，可用小火加热，以有些微辣味为佳。注意：洋葱虽好，但不可过量食用，以免产生胀气等不适；胃溃疡等胃肠疾病的老人要慎食。同时，洋葱和蜂蜜、海带和鱼、虾不宜同吃，以免损伤眼睛、形成结石，不利健康。
+	    \n④紫色茄子：含多种维生素和微量元素。尤其含有维生素P和皂角苷等。具有降血脂改善血管弹性的功能，对预防动脉粥样硬化有良好作用。
+	    \n⑤姜：生姜中富含油树脂和胆酸，阻止胆固醇的吸收。同时促进胆固醇的排泄，使血中胆固醇下降，对预防动脉粥样硬化作用良好，另外生姜中的辛辣和芳香气味挥发油，对防止血液凝固和增加血液循环均有良好作用。
+	    \n⑥菇类：富含多种维生素和微量元素，并含有优质蛋白、不饱和脂肪酸，不含胆固醇，具有明显的降脂作用，尤其是黑木耳能明显降低血黏稠度，不仅能预防动脉粥样硬化，而且对预防血管血栓形成也有良好作用。</string>
+    <string name="anfei_set1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;安菲身心健康管理系统由腕带、血氧传感器及移动客户端APP组成。本产品适用于17岁以上的普通人群，以下人群不宜使用安菲：装有心脏起搏器者，测试过程中心脏不能主动起搏患者。安菲工作环境温度为10℃—35℃，心率测量范围为30 bpm—200 bpm。测试前，请保持放松状态，测试过程中可选择坐在一张舒适的椅子上，或保持站立姿势，将血氧传感器套在食指末端，确保血氧传感器良好接触手指。打开移动客户端APP，通过蓝牙连接安菲，开始测试。请确认安菲腕带在使用过程中电量充足。测试结束后，可查看测试数据，断开蓝牙连接，关闭安菲腕带开关，并收纳放置。为保证安菲使用效果，请勿使用非是源公司提供或推荐的配件。</string>
+    <string name="anfei_set2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;安菲通过指定时间内测试获取人体心电、脉搏波生理信息，基于心率变异性原理获取能够量化描述自主神经系统的参数，根据数学分类方法建立压力模型，客观量化地判断机体的压力状态。脉搏波包含有丰富的心血管系统的生理病理信息，基于脉搏波速度传输理论可得出亚临床血管病变的重要指标，筛查选出早期干预目标的人群，为临床提供科学诊断依据,为体检者提供有益于缓解压力、维护血管健康的医疗指导建议。</string>
+    <string name="anfei_chufang_food1_1">抗压良方维生素：食物中维生素B含量较多的有：胚芽米，糙米，全麦面包，酵母，深色蔬菜，低脂牛奶，豆浆，蛋，菠菜，番茄等。</string>
+    <string name="anfei_chufang_food1_2">补充钙质巧减压：含钙丰富的食品主要有：牛奶，奶酪，酸奶等奶制品，豆制品以及南瓜等蔬菜。</string>
+    <string name="anfei_chufang_food1_3">控制糖分的摄入，科学的膳食习惯 。</string>
+    <string name="anfei_chufang_food2_1">能缓解压力的食物：全麦面包、燕麦、柠檬、生姜、蜂王浆、薏苡仁、百合、莲子、猪蹄、深海鱼、牛奶、香蕉、菇类、葡萄柚、菠菜、苹果等。</string>
+    <string name="anfei_chufang_food2_2">动物类：</string>
+    <string name="anfei_chufang_food2_3">1. 富含脂肪的鱼：压力激素的头号敌人是Ω-3脂肪酸，富含Ω-3脂肪酸的食物能够控制可的松与肾上腺素的水平，Ω-3脂肪酸还能预防心脏病。食用100克的鱼，特别是富含脂肪的鱼类，例如：鲑鱼、鲭鱼、鲱鱼、淡金枪鱼，每周至少两次。如果不爱吃鱼可以多吃鸡蛋、酸奶、牛奶、豆制品。这些食物中也含有此类脂肪酸。
+	    \n2. 牛奶：牛奶可以缓解失眠和焦虑。牛奶中含有丰富的钙，能够减少肌肉痉挛，舒缓压力。喝牛奶(最好是脱脂或低脂牛奶) 还能减轻经前综合症，例如：情绪多变、焦虑、易怒等症状，每天喝四杯以上低脂或脱脂牛奶的女性患经前综合症的几率能降低46％。</string>
+    <string name="anfei_chufang_food2_4">植物类：</string>
+    <string name="anfei_chufang_food2_5">1. 燕麦片：一碗温暖的燕麦片，能提高身体的羟色胺水平，5-羟色胺能帮助大脑恢复平静，放松我们的情绪。
+	    \n2. 碳水化合物：可引发胰岛素的释放，可以清除血液中的所有氨基酸而留下色氨酸，有利于色氨酸进入脑细胞。选择那些需要比较长时间消化吸收的食物，它们可以使血糖长时间维持在一定的浓度上，让人们的心情稳定而愉快。注意： 简单的碳水化合物，如：糖果和苏打水，由于吸收容易而使血糖增加得过快，很容易使人的情绪产生波动，难以持久。 
+	    \n3. 菠菜：菠菜是镁的良好来源，镁能够平复我们的情绪。所以镁具有降低压力的作用，能保持相对放松的状态。缺镁可导致偏头痛，易疲乏。一碗菠菜就能提供每日镁摄入量的40％。下次做三明治和沙拉时，可以尝试用菠菜取代卷心菜。
+	    \n4. 生蔬菜：当你在吃生的蔬菜时脆脆的口感也可以帮助对抗压力。咀嚼芹菜或胡萝卜之类的蔬菜时可以帮助你放松紧张的下巴，驱除紧张的情绪。
+	    \n5. 橙子：橙子中含有丰富的维生素C.研究表明，维生素C可以降低引起压力的荷尔蒙水平，同时还能加强免疫系统。在一项研究中发现，给情绪激动的人服用维生素C后，他们的血压和皮质醇水平都迅速地恢复正常。
+	    \n6. 鳄梨（牛油果）：鳄梨醇厚的口感能满足你的需求，降低狂躁的情绪。另外，单不饱和脂肪、钾能够降低血压。半个鳄梨可提供487毫克的钾，高于一个中等大小的香蕉。
+	    \n7. 开心果：开心果也有助于缓解压力。面对压力时，由于应激反应，心血管会立即做出反应。压力就会增大，肾上腺素使血压升高，因此需减轻心脏的压力。专家在研究中发现，每天吃一把开心果具有降低血压，减轻心脏负担的作用。
+	    \n8. 杏仁：杏仁中含有丰富的维生素E，一种很好的抗氧化剂，能提高免疫系统机能。杏仁还含有丰富的维生素B，能帮你度过难熬的日子。每天小半杯就足够了。
+	    \n9. 红茶：研究表明红茶有降低机体应激激素分泌水平的功效，每天饮用红茶，有利于舒缓神经。 </string>
+    <string name="anfei_chufang_food3_1">对抗失眠的10种食物：
+	    \n
+	    \n香蕉、菊花茶、温牛奶、蜂蜜、土豆、燕麦片、杏仁、亚麻籽、全麦面包、火鸡 </string>
+    <string name="anfei_chufang_music1_1">镇静舒缓：班得瑞系列、肖邦、舒伯特等人的小夜曲系列、贝多芬的《月光奏鸣曲》等，中国古典音乐如古琴独奏《佩兰》、《流水》、《醉渔唱晚》《平沙落雁》、《姑苏行》、《鹧鸪飞》、《梅花三弄》。
+	    \n
+	    \n调整思绪，宁神：中国乐曲：琴曲《梅花三弄》、《春江花月夜》、《雨打芭蕉》等。外国乐曲：巴赫《b小调弥撒曲》、约翰斯特劳斯《圆舞曲》等。
+	    \n
+	    \n消除疲劳，松驰：中国乐曲：民族管弦乐曲《彩云追月》、秦咏诚的小提琴独奏曲《海滨音诗》等。外国乐曲：亨德尔的管弦乐组曲《水上音乐》、德彪西的交响素描《大海》等。</string>
+    <string name="anfei_chufang_music2_1">抑制烦躁，镇静：中国乐曲：琴曲《流水》、琴歌《阳关三叠》、《苏武牧羊》等。外国乐曲：贝多芬钢琴奏鸣曲《月光》第一乐章、肖邦《e小调钢琴协奏曲》、德彪西管弦乐曲《夜曲》等。
+	    \n
+	    \n增进食欲，助餐：中国乐曲：黄贻钧的管弦乐曲《花好月圆》、彭修文的民族管弦乐曲《欢乐舞曲》等。外国乐曲：穆索尔斯基的钢琴组曲《图画展览会》、莫扎特的管弦乐曲《嬉游曲》等。
+	    \n
+	    \n振奋精神，激励：中国乐曲：笛子独奏曲《喜相逢》、刘天华的二胡独奏曲《光明行》、小提琴曲《新疆之春》等。外国乐曲：贝多芬的管弦乐曲《哀格蒙特序曲》、李斯特的钢琴曲《匈牙利狂想曲》、比才的管弦乐曲《卡门序曲》等。</string>
+    <string name="anfei_chufang_music3_1">助眠类：
+        \n和声简单、音乐和谐、旋律变化跳跃小，慢板的独奏或抒情的小品音乐。其中以小提琴、钢琴独奏曲效果较明显。这类音乐的中心频谱范围大都在125——25 Hz之间，往往比较容易诱人入睡。
+	    \n民族乐曲《渔舟唱晚》、《梁山伯与祝英台》(小提琴协奏曲)、《良宵》(二胡、钢琴)《二泉映月》、《春江花月夜》、《寒江月》各种摇篮曲、华彦钧的二胡曲《二泉映月》、吕文成的《烛影摇红》和《平湖秋月》。
+	    \n西方古典乐曲:莫扎特、勃拉姆斯、舒伯特等作曲家的《摇篮曲》、门德尔松的管弦乐序曲《仲夏夜之梦》、德彪西的钢琴协奏曲《梦》、马斯涅《泰伊丝幻想曲》、柴可大斯基《秋之歌》(大提琴、钢琴) 、海顿《小夜曲》(大调弦乐四重奏)第二乐章、舒曼《梦幻曲》等。
+	    \n
+	    \n兴奋类：
+	    \n民族乐曲《得胜令》、广东音乐《步步高》、《娱乐升平》等民族器乐曲。
+	    \n西方古典乐曲：贝多芬《命运交响曲》第一、四乐章、肖邦《波兰舞曲军队》、比才《斗牛士之歌 卡门序曲》、《格罗非大峡谷交响曲》第三乐章、苏配《轻骑兵序曲》、格林卡《幻想圆舞曲》、罗西尼《威廉退尔序曲》、贝多芬《皇帝协奏曲》、伊凡诺维奇《多瑙河之波》、约斯特劳斯《春之声圆舞曲》、莫扎特《土耳其进行曲》。
+	    \n
+	    \n头晕、乏力、疲倦、体力下降：《梁祝》、《彩云追月》、海顿组曲《水上音乐》、德彪西管弦乐曲《大海》等；紧张不安、易激动选《江南丝曲》、《寒鸭戏水》、《天鹅湖组曲》等;
+	    \n烦乱、心悸、胸闷：《月夜》、《梅花三弄》、《春之歌》等；
+	    \n情绪低落：《春天来了》、《步步高》、《金蛇狂舞》等。
+	    \n
+	    \n消虑性和解郁性乐曲：《昭君怨》、《春江花月夜》、《喜洋洋》、《春天来了》、《心花怒放》、《小开门》、《喜相逢》、《夜深沉》、《光明行》、《月儿高》、《平湖秋月》等。西方古典音乐：柴可夫斯基《如歌的行板》、门德尔松《春之歌》、肖邦《小调第一钢琴协奏曲》第三乐章、约斯特劳斯《拉德茨基进行曲》、贝多芬《大调小步舞曲》、马利《金婚曲》、拉威尔《菠莱罗舞曲》、李斯特《匈牙利狂想曲No 2》、莫扎特《剧院经理》、施特劳斯《维也纳森林的故事》。</string>
+    <string name="anfei_chufang_sport1_1">生理学研究表明，体育锻炼可以驱散抑郁状态下释放的激素、葡萄糖和油脂，提高肾上腺髓质分泌儿茶酚胺的能力，起到降低抑郁水平的作用。体育锻炼可给予中枢神经以良好的刺激，神经细胞经常受到刺激和兴奋，可减缓退化和萎缩的过程，起到防止脑细胞衰退的作用；
+	     同时，系统的锻炼可以改善脑部的血液循环，增加葡萄糖的供给，最大限度地提高氧运输能力，使人精力旺盛；体育锻炼可通过释放能量物质，如通过释放脑肽——身体的天然麻醉剂，令人镇静和感到快乐；同时作为一种转移注意力的方法，还可以缓解抑郁症状，并能使人自信快乐，促进人际关系，充实生活。</string>
+    <string name="anfei_chufang_sport2_1">健身舞：健身操和健身舞，都可以作为有氧运动项目，还可以起到健美作用。跳健身舞或者健美操，属于有节律的运动，能有效地消除神经系统病理性兴奋灶，有益于改善睡眠，克服神经衰弱引发的注意力不集中。选择此类项目，可以每天都参加，也可以每周至少做3次，每次持续20～40分钟。这样在动感的音乐声中，能改善心肺功能，提高摄氧效果，使躯体得到尽情的舒展。</string>
+    <string name="anfei_chufang_sport2_2">跳绳：
+	     \n跳绳简单易行，一学就会，适宜在气温较低的季节作为健身运动，一般在天气不好的时候，不便于跑步的情况下，都可以选择跳绳项目。从运动量来说，持续跳绳10分钟，与慢跑30分钟或跳健身舞20分钟相差无几，可谓耗时少、耗能大的有氧运动。一次跳半小时，就相当于慢跑90分钟的运动量，已是标准的有氧健身运动。  跳绳能增加身体的协调性，由于在跳绳过程中头部的位置在上下快速移动，有效加强前庭功能，能产生良好的心理感受，提高自信心。
+跳绳可以锻炼多种脏器，能增强人体心血管、呼吸和神经系统的功能。研究证实，跳绳可以预防诸如糖尿病、关节炎、肥胖症、骨质疏松、高血压、肌肉萎缩、高血脂、失眠症、抑郁症、更年期综合征等多种症病。对哺乳期和绝经期妇女来说，跳绳还兼有放松情绪的积极作用，因而也有利于女性的心理健康。
+\n跳绳注意以下事项：
+\n1、跳绳者应穿质地软、重量轻的高帮鞋，避免脚踝受伤。
+\n2、绳子软硬、粗细适中。初学者通常宜用硬绳，熟练后可改为软绳。
+\n3、胖人和中年妇女宜采用双脚同时起落。同时，上跃也不要太高，以免关节因过于负重而受伤。
+\n4、速度以30～60次/分钟为宜，心脏良好的速度还可以大一些，隔天一次，每次持续10分钟。
+\n5、心脏不好的要注意适当控制速度和运动量，严重心脏病患者不要选择此运动项目。
+\n
+\n散步：
+\n（1）普通散步：散步速度应保持在每分钟60~90步，每次20~30分钟为宜。
+\n（2）快速散步：散步时昂首阔步、健步快走，每次30~40分钟。此方法适合于慢性关节炎、胃肠道疾病恢复期。
+\n（3）逆向散步，又称倒退散步：散步时膝盖挺直，目视前方，每次先倒退100步，再向前走100步，反复多遍，以不觉疲劳为宜。此法可防治胃肠道功能紊乱。
+\n（4）定量散步：此方法是按照特定路线、速度和时间走完规定路程，最好将平坦路面与爬坡攀高交替，快慢结合。此法对心肺功能大有益处。
+\n（5）摆臂散步：散步时两臂随步伐做较大幅度摆动，可强化骨关节和呼吸功能，防治肩周炎。
+\n（6）摩腹散步：这是中医传统的运动养生法。每走一步用双手旋转按摩腹部一周，正反向交替进行，每分钟40~60步，每次5~10分钟。此法适合患有慢性胃肠疾病的人。</string>
+    <string name="anfei_chufang_sport3_1">1.采用心率升高至本人最高心率的70％—80％的强度作为标准进行锻炼。
+	    \n2.跑步。跑步时间在傍晚为宜，速度120步/min，每周至少3次，每次持续15min。
+	    \n3.跳绳。速度为30—60次/min，隔天1次，每次持续10min。
+	    \n4.健身舞。在健身教练指导下进行，由医护人员选择入组患者，每组不超过15min，既让患者感受到了集体活动的乐趣，又不至于因人数太多而使个别患者被忽略。每周3次，每次持续20 min。
+	    \n5.散步，在优美安静的环境中进行，每天步行1 500 m，并力争在15 min内走完，以后逐渐增加距离，直到45 min走完4500 m。
+	    \n6.足球疗法。根据患者爱好和身体状况，选择恢复期患者参加。为便于看管和避免混乱，每组选择10例，以娱乐为主，象征性比赛。每周2次，每次30min。
+	    \n7.太极拳。每周4次，每次20 min。
+	    \n其它集体运动。如传球活动、排球运动或体育游戏等。每周至少参加2次集体运动，每次30 min</string>
+
+    <string name="recover_main_starttrain">开始训练</string>
+    <string name="recover_main_starttest">开始测试</string>
+    <string name="recover_adjust_nextstep">下一步</string>
+    <string name="recover_account_save">保存用户</string>
+    <string name="recover_account_main_emptyphone">手机号不能为空</string>
+    <string name="recover_account_main_wrongphone">手机号码有误，请重新输入</string>
+    <string name="recover_account_main_emptyname">姓名不能为空</string>
+    <string name="recover_account_main_emptyweight">体重不能为空</string>
+    <string name="recover_account_main_emptyheight">身高不能为空</string>
+    <string name="recover_account_main_emptyage">年龄不能为空</string>
+    <string name="recover_account_main_savesuccee">成功保存信息</string>
+    <string name="recover_account_main_requestfail">网络请求失败，请检查网络</string>
+    <string name="recover_account_main_requestillegal">非法请求</string>
+    <string name="recover_account_main_requestclose">服务器维护中，禁止访问</string>
+    <string name="recover_account_main_datamiss">找不到相应数据</string>
+    <string name="recover_account_main_serverswrong">服务器出错</string>
+    <string name="recover_account_main_clientwrong">客户端出错</string>
+    <string name="recover_account_main_parawrong">参数缺失</string>
+    <string name="recover_account_main_phoneexist">成功保存用户信息</string>
+    <string name="recover_account_main_dataempty">数据为空</string>
+    <string name="recover_account_main_updatefail">更新失败，请检查网络</string>
+    <string name="recover_account_main_savefail">保存失败，请检查网络</string>
+    <string name="recover_account_main_usetnotexist">用户不存在</string>
+
+
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_bg_login"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/dailog_title"
+        android:orientation="horizontal" >
+
+        <!-- 返回键 -->
+
+        <TextView
+            android:id="@+id/tv_adjustment_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_centerVertical="true"            
+            android:gravity="center"
+            android:text="添加用户"
+            android:textColor="@android:color/white"
+            android:textSize="22sp" />
+
+    	</RelativeLayout>
+        
+		<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="尚未添加用户，请先填写用户基本信息再使用设备。"
+            android:textColor="@color/bg_recover_mainpage_wordtitle"
+            android:textSize="18sp" />
+		
+		
+			<View 
+		    android:layout_width="match_parent"
+		    android:layout_height="1dp"
+		    android:background="@drawable/bg_recover_adjustpage_line1"/>
+		    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <!-- <Button
+                android:id="@+id/btn_dialog_cancel"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_btn_tianlan"
+                android:text="取消"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" /> -->
+
+            <Button
+                android:id="@+id/btn_dialog_adduser"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:text="确定"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/btn_recover_dailog_blue"
+                android:textSize="20sp" />
+            
+            <View 
+		    android:layout_width="2dp"
+		    android:layout_height="20dp"
+		    android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+		    android:background="@drawable/bg_recover_adjustpage_line2"/>
+            
+            <Button
+                android:id="@+id/btn_dialog_adduser_cancel"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:text="取消"
+                android:textColor="@color/btn_recover_dailog_blue"
+                android:textSize="20sp" />
+    	</LinearLayout>
+    	</LinearLayout>
+</RelativeLayout>

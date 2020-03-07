@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_recover_accountpage"
+    android:orientation="vertical" >
+
+   	<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:orientation="vertical">
+        
+       
+        
+        <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal" 
+        android:adjustViewBounds="true">
+        <!-- 返回键 -->
+  
+        <ImageView 
+                android:id="@+id/iv_recover_account_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+            	android:layout_marginRight="15dp"
+            	android:padding="10dp"
+            	android:clickable="true"
+                android:src="@drawable/img_back"/>
+
+        <TextView
+            android:id="@+id/tv_recover_account_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/iv_recover_account_back"
+            android:gravity="center"
+            android:text="用户设置"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+        
+        
+   
+        <ImageView
+            android:id="@+id/iv_recover_account_describe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:padding="3dp"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:src="@drawable/logo_hl" />
+     </LinearLayout> 
+     
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    
+        <LinearLayout
+            android:id="@+id/ll_recover_account_state"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="22dp"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:background="@drawable/recover_accountpage_userinfo"
+            android:orientation="vertical">
+        
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" 
+            android:layout_marginTop="20dp"> 
+            
+	        <TextView
+	            android:id="@+id/tv_recover_account_words"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="准确输入信息，定制个性方案"
+	            android:textColor="@color/bg_recover_adduserpage_worddescribe"
+	            android:textSize="16sp" />        
+       		</LinearLayout>
+         
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="horizontal" 
+            android:layout_marginTop="10dp">
+        
+        <ImageView
+                android:id="@+id/iv_recover_main_phone"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="46dp"
+                android:clickable="true"
+                android:src="@drawable/icon_recover_accountpage_phone" />                
+        
+        <TextView
+            android:id="@+id/tv_recover_account_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="2dp"
+            android:text="手机："
+            android:textColor="@color/bg_recover_adduserpage_wordtitle"
+            android:textSize="16sp" />
+        
+        <EditText 
+            android:id="@+id/et_recover_account_phone"
+        	android:layout_width="167dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="7dp"
+            android:inputType="number"
+            android:hint="请填写手机号"
+            android:background="@drawable/bg_recover_accountpage_edit"
+            android:textColorHint="@color/bg_recover_adduserpage_texthint"/>       
+       	</LinearLayout>
+            
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="horizontal" 
+            android:layout_marginTop="5dp">
+        
+        <ImageView
+                android:id="@+id/iv_recover_main_name"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="46dp"
+                android:clickable="true"
+                android:src="@drawable/icon_recover_accountpage_name" />                
+        
+        <TextView
+            android:id="@+id/tv_recover_account_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="2dp"
+            android:text="姓名："
+            android:textColor="@color/bg_recover_adduserpage_wordtitle"
+            android:textSize="16sp" />
+        
+        <EditText 
+            android:id="@+id/et_recover_account_name"
+        	android:layout_width="167dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="7dp"
+            android:inputType="text"
+            android:hint="中英文或者数字"
+            android:background="@drawable/bg_recover_accountpage_editnone"
+            android:textColorHint="@color/bg_recover_adduserpage_texthint"/>       
+       	</LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            
+ 		<ImageView
+                android:id="@+id/iv_recover_main_age"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center_vertical"
+                android:clickable="true"
+                android:layout_marginLeft="46dp"
+                android:src="@drawable/icon_recover_accountpage_weight" />           
+        <TextView
+            android:id="@+id/tv_recover_account_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="2dp"
+            android:text="体重："
+            android:textColor="@color/bg_recover_adduserpage_wordtitle"
+            android:textSize="16sp" />
+        <EditText 
+            android:id="@+id/et_recover_account_weight"
+        	android:layout_width="167dp"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="7dp"
+            android:maxLength="3"
+            android:inputType="number"
+            android:numeric="integer"
+            android:hint="kg"
+            android:background="@drawable/bg_recover_accountpage_editnone"
+            android:textColorHint="@color/bg_recover_adduserpage_texthint"/>/>
+        
+       	</LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp" 
+            android:gravity="left">
+        
+        <ImageView
+                android:id="@+id/iv_recover_main_tall"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="46dp"
+                android:clickable="true"
+                android:src="@drawable/icon_recover_accountpage_height" />
+
+        <TextView
+            android:id="@+id/tv_recover_account_height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="2dp"
+            android:text="身高："
+            android:textColor="@color/bg_recover_adduserpage_wordtitle"
+            android:textSize="16sp" />
+        
+        <EditText 
+            android:id="@+id/et_recover_account_height"
+        	android:layout_width="167dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="7dp"
+            android:maxLength="3"
+            android:inputType="number"
+            android:numeric="integer"
+            android:hint="cm"
+            android:background="@drawable/bg_recover_accountpage_editnone"
+            android:textColorHint="@color/bg_recover_adduserpage_texthint"/>/>
+        
+       	</LinearLayout>
+       	
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_marginTop="5dp" 
+            android:orientation="horizontal">
+        
+		<ImageView
+                android:id="@+id/iv_recover_main_age"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:clickable="true"
+                android:layout_marginLeft="46dp"
+				android:layout_gravity="center_vertical"	
+                android:src="@drawable/icon_recover_accountpage_age" />            
+
+        <TextView
+            android:id="@+id/tv_recover_account_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="2dp"
+            android:text="年龄："
+            android:textColor="@color/bg_recover_adduserpage_wordtitle"
+            android:textSize="16sp" />
+        
+        <EditText 
+            android:id="@+id/et_recover_account_age"
+        	android:layout_width="167dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="7dp"
+            android:maxLength="3"
+            android:inputType="number"
+            android:numeric="integer"
+            android:hint="岁"
+            android:background="@drawable/bg_recover_accountpage_editnone"
+            android:textColorHint="@color/bg_recover_adduserpage_texthint"/>/>        
+       	</LinearLayout>
+       	
+       	<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"    
+            android:gravity="left"         
+    		android:layout_marginTop="5dp" >
+
+       	<ImageView
+       		    android:id="@+id/iv_recover_main_state"
+       		    android:layout_width="18dp"
+       		    android:layout_height="18dp"
+       		    android:layout_gravity="center_vertical"
+            	android:layout_marginLeft="46dp"
+       		    android:clickable="true"
+       		    android:src="@drawable/icon_recover_accountpage_sex" />
+
+        <TextView
+            android:id="@+id/tv_recover_account_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="2dp"
+            android:text="状态："
+            android:textColor="@color/bg_recover_adduserpage_wordtitle"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/ck_recover_account_pregnant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_vertical"
+            android:text="怀孕"
+            android:textSize="14sp"
+            android:textColor="@color/bg_recover_adduserpage_wordstatu"/>
+        
+        <CheckBox 
+            android:id="@+id/ck_recover_account_post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_vertical"
+            android:checked="true"
+            android:text="产后"
+            android:textSize="14sp"
+            android:textColor="@color/bg_recover_adduserpage_wordstatu"/>
+        
+       <CheckBox 
+            android:id="@+id/ck_recover_account_man"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+		    android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:checked="false"
+            android:text="男性"
+            android:textSize="14sp"
+            android:textColor="@color/bg_recover_adduserpage_wordstatu"/>
+       	</LinearLayout>
+        
+       	</LinearLayout>
+
+        <Button
+            android:id="@+id/btn_recover_account_save"
+            android:layout_width="167dp"
+            android:layout_height="47dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/btn_large"
+            android:text="@string/recover_account_save"
+            android:textColor="@android:color/white" 
+            android:textSize="18sp"/>
+     </RelativeLayout>        
+
+</LinearLayout>

@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_recover_mainpage"
+    android:orientation="vertical"
+    tools:context=".activity.anfei.AnfeiBaike2Activity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:background="@drawable/bg_mainpage_front1">
+
+            <ImageView
+                android:id="@+id/iv_recover_main_account"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="17dp"
+                android:layout_marginRight="16dp"
+                android:clickable="true"
+                android:src="@drawable/p_accountset" />
+               
+             <ImageView
+                android:id="@+id/iv_recover_main_photo"
+                android:layout_width="83dp"
+                android:layout_height="83dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:clickable="true"
+                android:src="@drawable/bg_mainpage_photo" />
+
+             <ImageView
+                 android:id="@+id/iv_recover_main_ranking"
+                 android:layout_width="30dp"
+                 android:layout_height="40dp"
+                 android:layout_alignBottom="@+id/iv_recover_main_account"
+                 android:layout_alignParentLeft="true"
+                 android:layout_marginLeft="14dp"
+                 android:clickable="true"
+                 android:src="@drawable/icon_rank1" />
+                   
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:gravity="center"
+            android:background="@color/white"
+            android:orientation="horizontal">
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/et_recover_main_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/bg_recover_mainpage_wordname"
+                android:text="aa"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="14dp"
+            android:gravity="center"
+            android:background="@color/white"
+            android:orientation="horizontal">
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="29dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="3dp" >
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:padding="3dp" >
+                <TextView
+                    android:id="@+id/et_recover_main_age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"                  
+                    android:text="25"
+                    android:textColor="@color/bg_recover_mainpage_wordage"
+                    android:textSize="30sp" />
+                <TextView
+                    android:id="@+id/et_recover_main_agename"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:text="岁"
+                    android:textSize="12sp" 
+                    android:textColor="@color/bg_recover_mainpage_wordunit"/>
+            </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_recover_main_age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/bg_recover_mainpage_wordtitle"
+                    android:text="年龄"
+                    android:textSize="14sp" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="3dp" >
+
+                <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:padding="3dp" >
+                <TextView
+                    android:id="@+id/et_recover_main_weight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:text="60"
+                    android:textColor="@color/bg_recover_mainpage_wordage"
+                    android:textSize="30sp" />
+                <TextView
+                    android:id="@+id/et_recover_main_weightname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:text="KG"
+                    android:textSize="12sp" 
+                    android:textColor="@color/bg_recover_mainpage_wordunit"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_recover_main_weight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:textColor="@color/bg_recover_mainpage_wordtitle"
+                    android:text="体重"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="3dp" >
+				<LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:padding="3dp" >
+                <TextView
+                    android:id="@+id/et_recover_main_height"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:text="173"
+                    android:textColor="@color/bg_recover_mainpage_wordage"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/et_recover_main_heightname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:text="CM"
+                    android:textSize="12sp" 
+                    android:textColor="@color/bg_recover_mainpage_wordunit"/>
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/tv_recover_main_height"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+					android:layout_marginTop="3dp"
+					android:textColor="@color/bg_recover_mainpage_wordtitle"
+                    android:text="身高"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+		
+		<View 
+		    android:layout_width="match_parent"
+		    android:layout_height="2dp"
+		    android:background="@color/bg_recover_mainpage_shadow"/>
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="17dp"
+            android:background="@drawable/bg_recover_mainpage_power"
+            android:orientation="horizontal" >
+          
+            <ImageView
+                android:id="@+id/iv_recover_main_mlevl"
+                android:layout_width="18dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="25dp"
+                android:clickable="true"
+                android:src="@drawable/icon_recover_mainpage_musclelevel" />
+            
+            <TextView
+                    android:id="@+id/et_recover_main_mlevel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="27dp"
+                    android:text="1"
+                    android:textColor="@color/bg_recover_mainpage_wordage"
+                    android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/tv_recover_main_mlevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/iv_recover_main_mlevl"
+                android:textColor="@color/bg_recover_mainpage_wordmaxpower"
+                android:text="肌力水平"
+                android:textSize="16sp" />
+            
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginRight="17dp"
+            android:background="@drawable/bg_recover_mainpage_power"
+            android:orientation="horizontal" >
+          
+            <ImageView
+                android:id="@+id/iv_recover_main_maxpower"
+                android:layout_width="18dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="25dp"
+                android:clickable="true"
+                android:src="@drawable/p_musclelevel" />
+            
+            <TextView
+                    android:id="@+id/et_recover_main_maxpower"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="27dp"
+                    android:text="0.0N"
+                    android:textColor="@color/bg_recover_mainpage_wordage"
+                    android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/tv_recover_main_maxpower"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/iv_recover_main_maxpower"
+                android:textColor="@color/bg_recover_mainpage_wordmaxpower"
+                android:text="最大收缩力"
+                android:textSize="16sp" />
+            
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginRight="17dp"
+            android:background="@drawable/bg_recover_mainpage_power"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/iv_recover_main_trainplan"
+                android:layout_width="18dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="25dp"
+                android:clickable="true"
+                android:src="@drawable/p_trainplan" />
+
+            <TextView
+                    android:id="@+id/et_recover_main_trainplan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="27dp"
+                    android:text="1级"
+                    android:textColor="@color/bg_recover_mainpage_wordage"
+                    android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/tv_recover_main_trainplan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/iv_recover_main_trainplan"
+                android:textColor="@color/bg_recover_mainpage_wordmaxpower"
+                android:text="训练方案"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginRight="17dp"
+            android:background="@drawable/bg_recover_mainpage_power"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_recover_recoverdevice"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="179dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_little"
+                android:text="盆底肌肉康复器"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginRight="17dp"
+            android:background="@drawable/bg_recover_mainpage_power"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_recover_trainer"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="197dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_little"
+                android:text="智能盆底康复训练仪"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_recover_report"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="107dp"
+                android:layout_height="47dp"
+                android:background="@drawable/btn_little"
+                android:text="报告"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_recover_starttest"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="107dp"
+                android:layout_height="47dp"
+                android:background="@drawable/btn_little"
+                android:text="开始"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

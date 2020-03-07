@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:orientation="horizontal"  
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content"
+    android:layout_marginRight="10dp"
+	android:layout_marginLeft="10dp"
+	android:background="#b990ff">  
+  
+    <View   
+        android:layout_width="1.5dip"  
+        android:layout_height="fill_parent"  
+        android:background="#B4B3B3"/>  
+    
+    <TextView  
+        android:id="@+id/lv_recover_usercase_rank"  
+        android:layout_width="0dip"  
+        android:layout_height="wrap_content"  
+        android:layout_weight="0.8"  
+        android:gravity="center"  
+        android:paddingBottom="7dip"  
+        android:paddingTop="7dip"  
+        android:textColor="#000000"  
+        android:textSize="14sp"
+        android:singleLine="true"  
+        android:text="排名" />  
+      
+    <View   
+        android:layout_width="1.5dip"  
+        android:layout_height="fill_parent"  
+        android:background="#B4B3B3"/>  
+  
+    <TextView  
+        android:id="@+id/lv_recover_usercase_username"  
+        android:layout_width="0dip"  
+        android:layout_height="wrap_content"  
+        android:layout_weight="1"  
+        android:paddingBottom="7dip"  
+        android:paddingTop="7dip"  
+        android:textColor="#000000"  
+        android:textSize="14sp"  
+        android:singleLine="true"  
+        android:gravity="center"  
+        android:text="用户" />  
+    
+     <View   
+        android:layout_width="1.5dip"  
+        android:layout_height="fill_parent"  
+        android:background="#B4B3B3"/>  
+  
+     <TextView  
+        android:id="@+id/lv_recover_usercase_score"  
+        android:layout_width="0dip"  
+        android:layout_height="wrap_content"  
+        android:layout_weight="1.2"  
+        android:paddingBottom="7dip"  
+        android:textColor="#000000"  
+        android:paddingTop="7dip"  
+        android:singleLine="true"  
+        android:textSize="14sp"  
+        android:gravity="center"  
+        android:text="综合得分" /> 
+    
+     <View   
+        android:layout_width="1.5dip"  
+        android:layout_height="fill_parent"  
+        android:background="#B4B3B3"/>  
+  
+     <TextView  
+        android:id="@+id/lv_recover_usercase_maxpower"  
+        android:layout_width="0dip"  
+        android:layout_height="wrap_content"  
+        android:layout_weight="1.2"  
+        android:paddingBottom="7dip"  
+        android:textColor="#000000"  
+        android:paddingTop="7dip"  
+        android:singleLine="true"  
+        android:textSize="14sp"  
+        android:gravity="center"  
+        android:text="最大肌力" />  
+      
+     
+     <View   
+        android:layout_width="1.5dip"  
+        android:layout_height="fill_parent"  
+        android:background="#B4B3B3"/>  
+  
+     <TextView  
+        android:id="@+id/lv_recover_usercase_levelI"  
+        android:layout_width="0dip"  
+        android:layout_height="wrap_content"  
+        android:layout_weight="1"  
+        android:paddingBottom="7dip"  
+        android:paddingTop="7dip"  
+        android:textColor="#000000"  
+        android:singleLine="true"  
+        android:textSize="14sp"  
+        android:gravity="center"  
+        android:text="一类肌" />  
+       
+     <View   
+        android:layout_width="1.5dip"  
+        android:layout_height="fill_parent"  
+        android:background="#B4B3B3"/>  
+  
+     <TextView  
+        android:id="@+id/lv_recover_usercase_levelII"  
+        android:layout_width="0dip"  
+        android:layout_height="wrap_content"  
+        android:layout_weight="1"  
+        android:paddingBottom="7dip"  
+        android:textColor="#000000"  
+        android:textSize="14sp"  
+        android:singleLine="true"  
+        android:paddingTop="10dip"  
+        android:gravity="center"  
+        android:text="二类肌" />     
+     <View   
+        android:layout_width="1.5dip"  
+        android:layout_height="fill_parent"  
+        android:background="#B4B3B3"/> 
+     
+</LinearLayout>  

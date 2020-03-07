@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/btn_recover_purple"
+        android:orientation="horizontal" >
+
+        <!-- 返回键 -->
+
+        <ImageView
+            android:id="@+id/iv_recover_ranking_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:clickable="true"
+            android:padding="10dp"
+            android:src="@drawable/img_back" />
+      
+        <TextView
+            android:id="@+id/tv_ranking_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="排行榜"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+       <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
+            
+		  <Button
+                android:id="@+id/btn_recover_ranking_pelvicrank"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:text="综合排行榜"
+                android:textColor="@color/bg_recover_analysispage_wordtitlenowchart"
+                android:textSize="15sp" />
+		  
+		  <View 
+		    android:layout_width="2dp"
+		    android:layout_height="30dp"
+		    android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_gravity="center_vertical"
+		    android:background="@color/btn_text_gray"/>
+		  
+		  <Button
+                android:id="@+id/btn_recover_ranking_progressrank"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:text="进步排行榜"
+                android:textColor="@color/bg_recover_analysispage_wordtitle"
+                android:textSize="15sp" />		    
+        </LinearLayout>	
+        
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
+            
+            <TextView
+            android:id="@+id/tv_ranking_progressindex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="您的综合得分为："
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />    
+            
+            <TextView
+            android:id="@+id/tv_ranking_progressindexdata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />    
+            
+            <TextView
+            android:id="@+id/tv_ranking_ranking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="当前排名："
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />    
+            
+            <TextView
+            android:id="@+id/tv_ranking_rankingdata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="第-位"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />    
+		 </LinearLayout>
+		 
+           	<LinearLayout
+           	android:id="@+id/ll_ranking_rank"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"   
+	        android:layout_marginTop="20dp"	        
+        	android:layout_marginBottom="20dp"   
+	        android:orientation="vertical">
+			
+		    <View   
+	        android:layout_width="match_parent"  
+	        android:layout_height="1dip"  
+	        android:layout_marginRight="10dp"
+	        android:layout_marginLeft="10dp"
+	        android:background="#A7A5A5"/>  
+	    	
+	    	<include   
+	        layout="@layout/listitem_usercase_listview"  
+	        android:id="@+id/include_listview"
+	        />  
+	      
+	        <View   
+	        android:layout_width="match_parent"  
+	        android:layout_height="1.5dip"  
+	        android:layout_marginRight="10dp"
+	        android:layout_marginLeft="10dp"
+	        android:background="#686867"/>    		
+			<ListView
+			    android:id="@+id/lv_recover_userCase_listData"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+	        	android:layout_marginRight="10dp"
+	        	android:layout_marginLeft="10dp"
+			    android:cacheColorHint="@android:color/transparent"
+			    android:divider="#B4B3B3"
+			    android:dividerHeight="0.8dip"
+			    android:fadingEdge="none"
+			    android:scrollbars="vertical" />  
+    		<View   
+	        android:layout_width="match_parent"  
+	        android:layout_height="3dip"
+	        android:layout_marginRight="10dp"
+	        android:layout_marginLeft="10dp"
+	        android:background="#000000"/> 
+			</LinearLayout>     
+			
+           	<LinearLayout
+           	android:id="@+id/ll_ranking_progress"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"   
+	        android:layout_marginTop="20dp"	        
+        	android:layout_marginBottom="20dp"   
+	        android:orientation="vertical"
+	        android:visibility="gone">
+			
+		    <View   
+	        android:layout_width="match_parent"  
+	        android:layout_height="1dip"  
+	        android:layout_marginRight="10dp"
+	        android:layout_marginLeft="10dp"
+	        android:background="#A7A5A5"/>  
+	    	
+	    	<include   
+	        layout="@layout/listitem_usercase_listview_progress"  
+	        android:id="@+id/include_listview_progress"
+	        />  
+	      
+	        <View   
+	        android:layout_width="match_parent"  
+	        android:layout_height="1.5dip"  
+	        android:layout_marginRight="10dp"
+	        android:layout_marginLeft="10dp"
+	        android:background="#686867"/>    		
+			<ListView
+			    android:id="@+id/lv_recover_userCase_listDataProgress"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+	        	android:layout_marginRight="10dp"
+	        	android:layout_marginLeft="10dp"
+			    android:cacheColorHint="@android:color/transparent"
+			    android:divider="#B4B3B3"
+			    android:dividerHeight="0.8dip"
+			    android:fadingEdge="none"
+			    android:scrollbars="vertical" />  
+    		<View   
+	        android:layout_width="match_parent"  
+	        android:layout_height="3dip"
+	        android:layout_marginRight="10dp"
+	        android:layout_marginLeft="10dp"
+	        android:background="#000000"/> 
+			</LinearLayout>  	
+         </LinearLayout>	    
+</LinearLayout>

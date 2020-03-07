@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+	<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/btn_recover_purple"
+        android:orientation="horizontal" >
+
+        <!-- 返回键 -->
+
+        <ImageView
+            android:id="@+id/iv_recover_analysis_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:clickable="true"
+            android:padding="10dp"
+            android:src="@drawable/img_back" />
+
+        <TextView
+            android:id="@+id/tv_title_analysis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="肌力分析"
+            android:textColor="@android:color/white"
+            android:textSize="22sp" />        
+    </RelativeLayout>
+
+	<TextView
+            android:id="@+id/tv_analysis_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="11dp"
+            android:text="综合评价"
+            android:textSize="16sp" 
+            android:textColor="@color/bg_recover_analysispage_wordtitle"/>
+
+	<LinearLayout
+            android:id="@+id/ll_analysis_levelI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp">
+
+            <TextView
+                android:id="@+id/tv_analysis_Imuscle_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="I类肌纤维 ："
+                android:textSize="16sp" 
+                android:textColor="@color/bg_recover_analysispage_wordtitleI"/>
+
+            <TextView
+                android:id="@+id/tv_analysis_Ilevel"
+                android:layout_width="37dp"
+                android:layout_height="22dp"
+                android:background="@drawable/bg_recover_analysispage_text1level"
+                android:gravity="center"
+                android:text="4级"
+                android:textSize="18sp" />
+ 			
+ 			<ImageView
+            android:id="@+id/iv_recover_analysis_Ilevel1"
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:clickable="true"
+            android:background="@drawable/bg_recover_analysispage_levelnone" />
+ 			<ImageView
+            android:id="@+id/iv_recover_analysis_Ilevel2"
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:background="@drawable/bg_recover_analysispage_levelnone" />
+ 			<ImageView
+            android:id="@+id/iv_recover_analysis_Ilevel3"
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:background="@drawable/bg_recover_analysispage_levelnone"/>
+ 			<ImageView
+            android:id="@+id/iv_recover_analysis_Ilevel4"
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:background="@drawable/bg_recover_analysispage_levelnone"/>
+ 			<ImageView
+            android:id="@+id/iv_recover_analysis_Ilevel5"
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:background="@drawable/bg_recover_analysispage_levelnone"/>
+                      
+        </LinearLayout>
+
+	<LinearLayout
+            android:id="@+id/ll_analysis_levelII"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp">
+           
+            <TextView
+                android:id="@+id/tv_analysis_IImuscle_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="II类肌纤维："
+                android:textSize="16sp" 
+                android:textColor="@color/bg_recover_analysispage_wordtitleII"/>
+            
+            <TextView
+                android:id="@+id/tv_analysis_IIlevel"
+                android:layout_width="37dp"
+                android:layout_height="22dp"
+                android:background="@drawable/bg_recover_analysispage_text2level"
+                android:gravity="center"
+                android:text="3级"
+                android:textSize="18sp" />
+            
+            <ImageView
+            android:id="@+id/iv_recover_analysis_IIlevel1"
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/bg_recover_analysispage_levelnone"/> 
+            
+             <ImageView
+            android:id="@+id/iv_recover_analysis_IIlevel2"
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/bg_recover_analysispage_levelnone"/> 
+             <ImageView
+            android:id="@+id/iv_recover_analysis_IIlevel3"
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/bg_recover_analysispage_levelnone" />
+             <ImageView
+            android:id="@+id/iv_recover_analysis_IIlevel4"
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/bg_recover_analysispage_levelnone" />            
+             <ImageView
+            android:id="@+id/iv_recover_analysis_IIlevel5"
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/bg_recover_analysispage_levelnone" />            
+        </LinearLayout>
+	
+		<View 
+		    android:layout_width="match_parent"
+		    android:layout_height="3dp"
+		    android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"           
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_vertical"
+		    android:background="@color/btn_text_gray"/>
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
+            
+		  <Button
+                android:id="@+id/btn_analysis_chartnow"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:text="当前测试"
+                android:textColor="@color/bg_recover_analysispage_wordtitlenowchart"
+                android:textSize="15sp" />
+		  
+		  <View 
+		    android:layout_width="2dp"
+		    android:layout_height="30dp"
+		    android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_gravity="center_vertical"
+		    android:background="@color/btn_text_gray"/>
+		  
+		  <Button
+                android:id="@+id/btn_analysis_charthistroy"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:text="成长记录"
+                android:textColor="@color/bg_recover_analysispage_wordtitle"
+                android:textSize="15sp" />
+		    
+        </LinearLayout>	
+	
+		<FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="12dp">
+            
+		<com.github.mikephil.charting.charts.HorizontalBarChart
+		    android:id="@+id/chart_analysis_current"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:background="@android:color/white" 
+		    android:visibility="visible"/>
+		
+		<com.github.mikephil.charting.charts.LineChart
+		    android:id="@+id/chart_analysis_histroy"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:background="@android:color/white" 
+		    android:visibility="gone">
+		</com.github.mikephil.charting.charts.LineChart>
+		    
+        </FrameLayout>	
+		        
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="16dp">
+        <TextView
+                android:id="@+id/tv_analysis_muscle_suggestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text=""
+                android:textSize="15sp" 
+                android:textColor="@color/bg_recover_analysispage_wordtitle"/>
+        </LinearLayout>
+	
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/tv_analysis_plan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="推荐方案:"
+                android:textSize="16sp" 
+                android:textColor="@color/bg_recover_analysispage_wordplantitle"/>
+
+            <TextView
+                android:id="@+id/tv_analysis_plannum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="E"
+                android:textSize="24sp" 
+                android:textColor="@color/bg_recover_analysispage_wordplannum"/>
+            
+            <TextView
+                android:id="@+id/tv_analysis_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:layout_marginLeft="32dp"
+                android:text="默认等级："
+                android:textSize="16sp" 
+                android:textColor="@color/bg_recover_analysispage_wordplantitle"/>
+            
+            <TextView
+                android:id="@+id/tv_analysis_levelnum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="5"
+                android:textSize="24sp" 
+                android:textColor="@color/bg_recover_analysispage_wordplannum"/>
+            </LinearLayout>	  
+		
+			<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+			    <Button
+			        android:id="@+id/btn_analysis_starttrain"
+			        android:layout_width="107dp"
+               		android:layout_height="47dp"			   
+			        android:layout_weight="1"
+			         android:layout_marginRight="30dp"
+			        android:background="@drawable/btn_large"
+			        android:text="@string/recover_main_starttrain"
+			        android:textColor="@android:color/white" />
+
+			    <Button
+			        android:id="@+id/btn_analysis_savereport"
+			        android:layout_width="107dp"
+                	android:layout_height="47dp"
+			        android:layout_weight="1"
+			        android:background="@drawable/btn_large"
+			        android:text="保存报告"
+			        android:textColor="@android:color/white" />
+
+			</LinearLayout>
+		
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       android:shape="rectangle">
+
+    <solid
+        android:color="#CCFFFFFF"/>
+
+    <corners
+        android:bottomLeftRadius="@dimen/picker_button_corner"
+        android:bottomRightRadius="@dimen/picker_button_corner"
+        android:topLeftRadius="@dimen/picker_button_corner"
+        android:topRightRadius="@dimen/picker_button_corner"/>
+
+</shape>

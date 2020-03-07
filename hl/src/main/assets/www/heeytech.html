@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<title>荷露打印报告</title>
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		 <script src="./js/jquery-1.11.3.min.js"></script>
+		 <script src="./js/echarts.min.js"></script>
+		 <script src="./js/heeytech.js"></script>
+	<style>
+	 ul{
+		list-style:none;float:left; 
+		border : 1px black solid;
+	 }
+	  ul li{
+		list-style:none;float:left; margin-left:3%;
+	 }
+	 #customers
+{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	width:100%;
+	border-collapse:collapse;
+}
+#customers td, #customers th 
+{
+	font-size:12px;
+	border:1px solid #98bf21;
+	padding:3px 7px 2px 7px;
+	text-align:center;
+	font-size: 12px;
+}
+#customers th 
+{
+	font-size:12px;
+	text-align:left;
+	padding-top:5px;
+	padding-bottom:4px;
+	background-color:#A7C942;
+	color:#ffffff;
+}
+#customers tr.alt td 
+{
+	color:#000000;
+	background-color:#EAF2D3;
+}
+</style>
+</head>
+<body style="margin-left: 10%">
+	<div style="height:100%;width:110%;margin-top: 30px;">
+		<div style="height:6%">
+			<img src="./images/logo.png" style="width: 60%;height: 70%;">
+		</div>
+		<p style="float:center; margin-right:0%;font-weight:bold;font-size: 6px;" id="hosptialName"></p>
+ <div style="height:8%;margin-top:-1%;float:left;width:110%">
+	<table id="customers">
+	<tbody>
+		<tr>
+		<td id="userName"></td>
+			<td id="userMaxPower"></td>
+			<td id="trainCode"></td>
+		</tr>
+		<tr>
+			<td id="firstMuscle"></td>
+			<td id="secondMuscle"></td>
+			<td id="nowTime"></td>
+		</tr>
+	</tbody>
+	</table>
+	</div>
+	<div>
+	  <div style="height:110px;width:110%;float:left;margin-top:30px">
+		<div style="height:250px;width:33%;float:left;text-align: center;">
+			<img id="firstMuscleimg" src="./images/icon_leveli_1.png" style="width:115px;height:115px;" />
+		</div> 
+		<div style="height:125px;width:33.5%;float:left;text-align: center;"">
+			<img id="secondMuscleimg" src="./images/icon_levelii_1.png" style="width:115px;height:115px;" />
+		</div> 
+		<div id="main2" style="height:125px;width:33%;float:right">
+		</div>
+	</div>
+	<div style="height:150px;width:100%;float:left;font-size:12px;margin-left:5px;margin-top: 25px;">
+		<p id="analysisResult" style="line-height: 14px;"></p>
+		<p id="analysisResult1" style="line-height: 21px;"></p>
+		<p id="analysisResult2" style="line-height: 14px;"></p>
+	</div>
+	<div id="main1"style="height:225px;width:100%;float:left;margin-top:30px;margin-left:0px">		
+	</div>
+	<div id="main"style="height:210px;width:100%;float:left;margin-top:20px;">	
+	</div>
+	<div id="main3" style="height:275px;width:110%;float:left;margin-top:20px">
+	</div>	
+	</div>
+</body>
+</html>

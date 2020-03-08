@@ -13,8 +13,7 @@ import android.widget.TextView;
 import com.health.hl.R;
   
   
-public class UserCaseListViewAdapter extends BaseAdapter implements
-OnClickListener {  
+public class UserCaseListViewAdapter extends BaseAdapter implements OnClickListener {
       
     private List<Goods> list;  
     private LayoutInflater inflater;  

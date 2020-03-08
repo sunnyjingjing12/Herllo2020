@@ -215,10 +215,8 @@ System.out.println("listener:"+listener);
 
 	/**
 	 * 自定义Toast
-	 * 
-	 * @param context
+	 *
 	 * @param text
-	 * @param duration
 	 */
 	private void showToast(String text) {
 		if (customToast == null) {

@@ -24,11 +24,6 @@
         android:icon="@drawable/icon_logoapp"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
-        <activity android:name=".recover.RecoverDeviceTrainguidanceActivity" />
-        <activity android:name=".recover.RecoverDeviceTrainActivity" />
-        <activity android:name=".recover.RecoverDeviceRecordActivity" />
-        <activity android:name=".recover.RecoverDeviceAdvancedActivity" />
-        <activity android:name=".recover.RecoverDeviceBaseActivity" />
 
         <service
             android:name=".service.RFStarBLEService"
@@ -165,12 +160,6 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".recover.RecoverRankingActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".recover.RecoverDeviceActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".recover.RecoverDeviceNewguidance"
             android:screenOrientation="portrait" />
     </application>
 

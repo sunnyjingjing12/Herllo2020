@@ -62,7 +62,7 @@ import java.util.ArrayList;
 import flapbird.Flapbird;
 
 
-public class RecoverAdjustActivity extends Activity implements OnClickListener,OnCheckedChangeListener,RFStarManageListener, RFStarBLEBroadcastReceiver{
+public class  RecoverAdjustActivity extends Activity implements OnClickListener,OnCheckedChangeListener,RFStarManageListener, RFStarBLEBroadcastReceiver{
 
 
 	@Override

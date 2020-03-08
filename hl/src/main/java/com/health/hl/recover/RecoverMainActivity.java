@@ -224,12 +224,6 @@ OnClickListener{
 				startActivity(intent1);
 			break;
 
-			//进入康复器界面（进行活动界面跳转）
-			case R.id.btn_recover_recoverdevice:
-				Intent intent2 = new Intent(RecoverMainActivity.this,
-						RecoverDeviceActivity.class);
-				startActivity(intent2);
-			break;
 
 			//进入新建账户界面
 			case R.id.iv_recover_main_account:
